@@ -1,0 +1,25 @@
+{
+  "name": "botguide",
+  "version": "0.0.1",
+  "description": "A guide for bot",
+  "main": "index.js",
+  "authors": {
+    "name": "corvo007",
+    "email": "oscarlongsslz@gmail.com"
+  },
+  "repository": "",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/plugin-active-header-links": "^1.6.0",
+    "@vuepress/plugin-back-to-top": "^1.6.0",
+    "@vuepress/plugin-medium-zoom": "^1.6.0",
+    "@vuepress/plugin-nprogress": "^1.6.0",
+    "vuepress": "^1.6.0",
+    "vuepress-plugin-clean-urls": "^1.1.2",
+    "vuepress-plugin-nprogress": "^1.1.8"
+  }
+}
