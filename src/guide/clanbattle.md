@@ -1,6 +1,6 @@
 ---
 prev: ./authsystem
-next: ./practicalfunc
+next: ./clanbattlemanual
 ---
 # 会战功能
 
@@ -51,6 +51,10 @@ next: ./practicalfunc
 :::
 
 ## 出刀管理(前台)<Badge text="轻量" type="tip"/><Badge text="标准" type="tip"/><Badge text="豪华" type="tip"/> 
+
+::: tip 提示
+如果您是第一次使用，推荐先阅读[会战功能使用手册](./clanbattlemanual)
+:::
 
 
 | 关键词                 | 说明                                                     |

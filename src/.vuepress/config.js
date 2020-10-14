@@ -69,6 +69,7 @@ module.exports = {
             '/guide/updatelog',
             '/guide/authsystem',
             '/guide/clanbattle',
+            '/guide/clanbattlemanual',
             '/guide/practicalfunc',
             '/guide/funfunc',
             '/guide/commonquestion'
