@@ -218,15 +218,14 @@ HelloWorld.jpg/生成表情包我要白丝!|	将`.jpg`前的文字或`生成表�
 爆裂魔法/爆烈魔法|让惠惠来一发爆裂魔法吧！
 补魔|又能来一发了呢~
 
-## 其他杂项功能
+## 其他娱乐功能<Badge text="豪华" type="tip"/>
 功能名称|关键词|说明
 :--|:--|:--
-无损音乐搜索<Badge text="标准" type="tip"/><Badge text="豪华" type="tip"/> |搜无损 名字|	搜索无损音乐<br><b>相关服务:flac</b>
-今日运势(vtb版)<Badge text="豪华" type="tip"/> |抽签/今日人品/今日运势/人品/运势/小狐狸签/吹雪签|<b>相关服务:vortune</b>
-网抑云时间<Badge text="豪华" type="tip"/>|<b>(at)</b>网抑云/上号|	随机来句网抑云语录<br><b>相关服务:hiumsentences</b>
-俄罗斯轮盘游戏<Badge text="豪华" type="tip"/>|开枪|<b>相关服务:俄罗斯轮盘</b>
-好看的东西<Badge text="豪华" type="tip"/>|来点好看的|	发点好看的,仅限22点至次日3点使用<br><b>相关服务:-好看的东西-</b>
-迫害龙王<Badge text="豪华" type="tip"/>|迫害龙王|	<b>相关服务:longwang</b>
-能不能好好说话?(缩写释义)<Badge text="豪华" type="tip"/>|转义 缩写|<b>相关服务:nbnhhsh</b>
-角色语音试听<Badge text="豪华" type="tip"/>|角色正式名称/别名 语音|	听老婆说话！(小仓唯的语音请使用镜华语音)<br><b>相关服务:record</b>
-猜猜我是谁？<Badge text="豪华" type="tip"/>|cygames|<b>相关服务:voiceguess</b>
+今日运势(vtb版) |抽签/今日人品/今日运势/人品/运势/小狐狸签/吹雪签|<b>相关服务:vortune</b>
+网抑云时间|<b>(at)</b>网抑云/上号|	随机来句网抑云语录<br><b>相关服务:hiumsentences</b>
+俄罗斯轮盘游戏|开枪|<b>相关服务:俄罗斯轮盘</b>
+好看的东西|来点好看的|	发点好看的,仅限22点至次日3点使用<br><b>相关服务:-好看的东西-</b>
+迫害龙王|迫害龙王|	<b>相关服务:longwang</b>
+能不能好好说话?(缩写释义)|转义 缩写|<b>相关服务:nbnhhsh</b>
+角色语音试听|角色正式名称/别名 语音|	听老婆说话！(小仓唯的语音请使用镜华语音)<br><b>相关服务:record</b>
+猜猜我是谁？|cygames|<b>相关服务:voiceguess</b>
