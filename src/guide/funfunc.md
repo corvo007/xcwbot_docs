@@ -204,14 +204,14 @@ HelloWorld.jpg/生成表情包我要白丝!|	将`.jpg`前的文字或`生成表�
 3.一天最多抽取20次
 :::
 
-## PCR午间音乐<font color=#4169E1>\(NEW\)</font><Badge text="豪华" type="tip"/>
+## PCR午间音乐<Badge text="NEW" type="warning"/><Badge text="豪华" type="tip"/>
 <b>相关服务:pcrmiddaymusic</b>
 关键词|说明
 :--|:--|:--
 来点音乐|随机推送一首公主连结相关音乐|
 来点音乐 关键词|寻找活动名/歌曲名含有关键词的音乐并推送|
 
-## 惠惠的爆裂魔法<font color=#4169E1>\(NEW\)</font><Badge text="豪华" type="tip"/>
+## 惠惠的爆裂魔法<Badge text="NEW" type="warning"/><Badge text="豪华" type="tip"/>
 <b>相关服务:explosion</b>
 关键词|说明
 :--|:--|:--
