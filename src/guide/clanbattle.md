@@ -4,8 +4,6 @@ next: ./clanbattlemanual
 ---
 # 会战功能
 
-[[toc]]
-
 ## box&轴管理
 
 ::: danger 警告
@@ -53,7 +51,7 @@ next: ./clanbattlemanual
 ## 出刀管理(前台)<Badge text="轻量" type="tip"/><Badge text="标准" type="tip"/><Badge text="豪华" type="tip"/> 
 
 ::: tip 提示
-如果您是第一次使用，推荐先阅读[会战功能使用手册](./clanbattlemanual)
+如果您是第一次使用，推荐先阅读[会战功能使用手册](/guide/clanbattlemanual)
 :::
 
 

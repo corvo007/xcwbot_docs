@@ -4,8 +4,6 @@ next: ./commonquestion
 ---
 # 娱乐功能
 
-[[toc]]
-
 ## PCR模拟抽卡<Badge text="标准" type="tip"/><Badge text="豪华" type="tip"/> 
 <b>相关服务:gacha</b>
 关键词|说明
@@ -205,6 +203,20 @@ HelloWorld.jpg/生成表情包我要白丝!|	将`.jpg`前的文字或`生成表�
 2.每十抽必出普通卡或稀有卡一张;  
 3.一天最多抽取20次
 :::
+
+## PCR午间音乐<font color=#4169E1>\(NEW\)</font><Badge text="豪华" type="tip"/>
+<b>相关服务:pcrmiddaymusic</b>
+关键词|说明
+:--|:--|:--
+来点音乐|随机推送一首公主连结相关音乐|
+来点音乐 关键词|寻找活动名/歌曲名含有关键词的音乐并推送|
+
+## 惠惠的爆裂魔法<font color=#4169E1>\(NEW\)</font><Badge text="豪华" type="tip"/>
+<b>相关服务:explosion</b>
+关键词|说明
+:--|:--|:--
+爆裂魔法/爆烈魔法|让惠惠来一发爆裂魔法吧！
+补魔|又能来一发了呢~
 
 ## 其他杂项功能
 功能名称|关键词|说明
