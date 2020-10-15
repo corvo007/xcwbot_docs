@@ -3,3 +3,5 @@ node_modules
 my-cloudbase-app
 cloudbaserc.json
 src/.vuepress/dist/*
+flushwebpage.py
+flushwebpage.bat
