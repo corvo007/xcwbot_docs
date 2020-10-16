@@ -31,7 +31,7 @@ B/台服新闻<Badge text="标准" type="tip"/><Badge text="豪华" type="tip"/>
 <b>(自动)</b>提醒买药小助手(国/台服)<Badge text="豪华" type="tip"/>|	每天0、6、12、18点提醒买药(UTC+8)<br><b>相关服务:hourcallyao</b>
 <b>(自动)</b>提醒买药小助手(日服)<Badge text="豪华" type="tip"/>|	每天0、6、12、18点提醒买药(UTC+9)<br><b>相关服务:hourcallyaojp</b>
 
-## 其他实用功能
+## 其他实用功能<Badge text="标准" type="tip"/><Badge text="豪华" type="tip"/> 
 
 功能名称|关键词|说明
 :--|:--|:--
