@@ -60,6 +60,10 @@ module.exports = {
         text: '促销活动',
         link: '/shop/saleactivity'
       },
+      {
+        text: '致谢',
+        link: '/guide/specialthanks'
+      },
     ],
     sidebar: [
         {
@@ -74,7 +78,8 @@ module.exports = {
             '/guide/clanbattlemanual',
             '/guide/practicalfunc',
             '/guide/funfunc',
-            '/guide/commonquestion'
+            '/guide/commonquestion',
+            '/guide/specialthanks'
           ]
         },
         {

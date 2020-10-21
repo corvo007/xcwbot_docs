@@ -1,6 +1,6 @@
 ---
 prev: ./funfunc
-next: false
+next: ./specialthanks
 sidebarDepth: 0
 ---
 ## 常见问题

@@ -210,14 +210,14 @@ HelloWorld.jpg/生成表情包我要白丝!|	将`.jpg`前的文字或`生成表�
 3.一天最多抽取20次
 :::
 
-## PCR午间音乐<Badge text="NEW" type="warning"/><Badge text="豪华" type="tip"/>
+## PCR午间音乐<Badge text="豪华" type="tip"/>
 <b>相关服务:pcrmiddaymusic</b>
 关键词|说明
 :--|:--|:--
 来点音乐|随机推送一首公主连结相关音乐|
 来点音乐 关键词|寻找活动名/歌曲名含有关键词的音乐并推送|
 
-## 惠惠的爆裂魔法<Badge text="NEW" type="warning"/><Badge text="豪华" type="tip"/>
+## 惠惠的爆裂魔法<Badge text="豪华" type="tip"/>
 <b>相关服务:explosion</b>
 关键词|说明
 :--|:--|:--
@@ -227,7 +227,7 @@ HelloWorld.jpg/生成表情包我要白丝!|	将`.jpg`前的文字或`生成表�
 ## 其他娱乐功能<Badge text="豪华" type="tip"/>
 功能名称|关键词|说明
 :--|:--|:--
-今日运势(vtb版) |抽签/今日人品/今日运势/人品/运势/小狐狸签/吹雪签|<b>相关服务:vortune</b>
+今日运势(PCR版)<Badge text="NEW" type="warning"/> |抽签/人品/运势|<b>相关服务:portune</b>
 网抑云时间|<b>(@bot)</b>网抑云/上号|	随机来句网抑云语录<br><b>相关服务:hiumsentences</b>
 俄罗斯轮盘游戏|开枪|<b>相关服务:俄罗斯轮盘</b>
 好看的东西|来点好看的|	发点好看的,仅限22点至次日3点使用<br><b>相关服务:-好看的东西-</b>
