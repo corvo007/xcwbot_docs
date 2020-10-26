@@ -227,7 +227,7 @@ HelloWorld.jpg/生成表情包我要白丝!|	将`.jpg`前的文字或`生成表�
 ## 其他娱乐功能<Badge text="豪华" type="tip"/>
 功能名称|关键词|说明
 :--|:--|:--
-今日运势(PCR版)<Badge text="NEW" type="warning"/> |抽签/人品/运势|<b>相关服务:portune</b>
+今日运势(PCR版)<Badge text="NEW" type="warning"/> |<b>(@bot)</b>抽签/人品/运势|<b>相关服务:portune</b>
 网抑云时间|<b>(@bot)</b>网抑云/上号|	随机来句网抑云语录<br><b>相关服务:hiumsentences</b>
 俄罗斯轮盘游戏|开枪|<b>相关服务:俄罗斯轮盘</b>
 好看的东西|来点好看的|	发点好看的,仅限22点至次日3点使用<br><b>相关服务:-好看的东西-</b>
