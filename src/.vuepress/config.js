@@ -5,7 +5,7 @@ module.exports = {
   /**
    * Ref:https://v1.vuepress.vuejs.org/config/#title
    */
-  title: '小仓唯Bot',
+  title: '小仓唯Bot(预发布版本)',
   /**
    * Ref:https://v1.vuepress.vuejs.org/config/#description
    */
@@ -39,10 +39,6 @@ module.exports = {
     nextLinks: true,
     // 默认值是 true 。设置为 false 来禁用所有页面的 上一篇 链接
     prevLinks: true,
-    algolia: {
-      apiKey: '25626fae796133dc1e734c6bcaaeac3c',
-      indexName: 'docsearch'
-    },
     nav: [
       {
         text: '主页',
@@ -71,7 +67,7 @@ module.exports = {
     ],
     sidebar: [
         {
-          title: '使用指南',
+          title: '使用指南(预发布)',
           path: '/guide/',
           collapsable: false,
           children: [

@@ -3,8 +3,13 @@ prev: ./practicalfunc
 next: ./commonquestion
 ---
 # 娱乐功能
-
-## PCR模拟抽卡<Badge text="标准" type="tip"/><Badge text="豪华" type="tip"/> 
+::: warning 注意
+本页面是指南的预发布版本,与正式版本可能有所不同,且部分或全部更改还未作出。另外,此处的修改与正式版本的修改亦可能不同。
+:::
+::: tip 提示
+本页功能仅在娱乐版提供。
+:::
+## PCR模拟抽卡
 <b>相关服务:gacha</b>
 关键词|说明
 :--|:--|:--
@@ -18,7 +23,7 @@ next: ./commonquestion
 <p><Badge text="1" type="warning"/>一天只能抽一井,如需多抽,请使用氪金命令</p>
 :::
 
-## PCR模拟抽卡<Badge text="轻量" type="tip"/>
+## PCR模拟抽卡
 关键词|说明
 :--|:--|:--
 十连|*纯文字,不含图片	
@@ -26,20 +31,20 @@ next: ./commonquestion
 在线十连|	在线抽卡,不扰民
 
 
-## 切噜语转换<Badge text="标准" type="tip"/><Badge text="豪华" type="tip"/> 
+## 切噜语转换
 <b>相关服务:pcr-cherugo</b>
 关键词|说明
 :--|:--|:--
 切噜一下|	转换为切噜语
 切噜～♪切啰巴切拉切蹦切蹦|	切噜语翻译
 
-## 签到<Badge text="标准" type="tip"/><Badge text="豪华" type="tip"/> 
+## 签到
 <b>相关服务:pcr-login-bonus</b>
 关键词|说明
 :--|:--|:--
 小仓唯签到|	给主さま盖章章(随机图样哦)
 
-## 生成器<Badge text="豪华" type="tip"/> 
+## 生成器
 <b>相关服务:generator</b>
 关键词|说明
 :--|:--|:--
@@ -49,14 +54,14 @@ next: ./commonquestion
 无中生友|	使用"我朋友说xxx(@某人)"命令生成</B>(at人使用指定人的头像,不at随机选择)</B><br>例如:我朋友说他好了@张三<br>我朋友说他好了
 舔狗日记|	使用"日记(@某人)"命令生成</B>(at人使用指定人的头像,不at随机选择)</B><br>例如:@张三日记<br>日记
 
-## 掷骰子<Badge text="标准" type="tip"/><Badge text="豪华" type="tip"/> 
+## 掷骰子
 <b>相关服务:dice</b>
 关键词|说明
 :--|:--|:--
 .r|	掷骰子(默认1d100)
 .r 3d12|	掷3次12面骰子并将每一次掷出的点数相加
 
-## 我问你答<Badge text="豪华" type="tip"/> 
+## 我问你答
 <b>相关服务:eqa</b>
 关键词|说明
 :--|:--|:--
@@ -72,7 +77,7 @@ next: ./commonquestion
 目前的设置只允许超级管理员清空某个问题的回答(也就是全部删除)。
 :::
 
-## 精 致 睡 眠<Badge text="标准" type="tip"/><Badge text="豪华" type="tip"/> 
+## 精 致 睡 眠
 <b>相关服务:sleeping-set</b>
 ::: tip 提示
 本功能需要bot是当前群的管理员,否则不会生效
@@ -82,7 +87,7 @@ next: ./commonquestion
 精致睡眠|	8小时精致睡眠
 给我来一份精致昏睡下午茶套餐|	叫114514杯先 辈 特 调 红 茶
 
-## 群空调<Badge text="豪华" type="tip"/> 
+## 群空调
 <b>相关服务:aircon</b>
 关键词|说明
 :--|:--|:--
@@ -97,21 +102,21 @@ next: ./commonquestion
 降级空调|	降级空调(中央空调→家用空调)
 空调类型|	查看空调类型(家用空调/中央空调)
 
-## 猜头像<Badge text="豪华" type="tip"/> 
+## 猜头像
 <b>相关服务:pcravatarguess/fgoavatarguess</b>
 关键词|说明
 :--|:--|:--
 猜头像/fgo猜头像|	猜猜机器人随机发送的头像的一小部分来自哪位角色
 猜头像群排行|	显示猜头像小游戏猜对次数的群排行榜(只显示前十名)
 
-## 猜角色<Badge text="豪华" type="tip"/> 
+## 猜角色
 <b>相关服务:pcrdescguess</b>
 关键词|说明
 :--|:--|:--
 猜角色|	猜猜机器人随机发送的文本在描述哪位角色
 猜角色群排行|	显示猜角色小游戏猜对次数的群排行榜(只显示前十名)
 
-## PCR记忆小游戏<Badge text="豪华" type="tip"/> 
+## PCR记忆小游戏
 <b>相关服务:pcrmemorygames</b>
 关键词|说明
 :--|:--|:--
@@ -128,14 +133,14 @@ next: ./commonquestion
 4×4方格中放置了8种不同的图案,每种图案共两张。机器人首先会给几秒钟时间记忆,然后把全部图片翻面并随机翻开其中一张。玩家需要在规定时间内回答另一张相同图案所在位置的编号。
 :::
 
-## 抽:elephant:圣经转换:seven:<Badge text="豪华" type="tip"/> 
+## 抽:elephant:圣经转换:seven:
 <b>相关服务:text2emoji</b>
 关键词|说明
 :--|:--|:--
 抽象一下 一句话|	转换为抽象话(标题上的就是)
 我佛辣 一句话|	转换为深度抽象话
 
-## 表情包生成器<Badge text="豪华" type="tip"/> 
+## 表情包生成器
 <b>相关服务:image-generate</b>
 关键词|说明
 :--|:--|:--
@@ -144,7 +149,7 @@ next: ./commonquestion
 选图列表|	查看能选择的底图列表,<>内的数字为必选数字
 HelloWorld.jpg/生成表情包我要白丝!|	将`.jpg`前的文字或`生成表情包`后的文字作为内容生成当前所选底图所对应的表情包
 
-## 涩图&搜图<Badge text="豪华" type="tip"/> 
+## 涩图&搜图
 <b>相关服务:涩图(本地图源)</b>
 关键词|说明
 :--|:--|:--
@@ -158,7 +163,7 @@ HelloWorld.jpg/生成表情包我要白丝!|	将`.jpg`前的文字或`生成表�
 4.发送时会优先发送在线涩图,在线涩图额度用尽时将发送本地涩图。  
 :::
 
-##  老婆生成器<Badge text="豪华" type="tip"/> 
+##  老婆生成器
 <b>相关服务:laopo</b>
 
 :::warning 注意
@@ -176,7 +181,7 @@ HelloWorld.jpg/生成表情包我要白丝!|	将`.jpg`前的文字或`生成表�
 情话|
 分手|	
 
-## 公主连结wiki<Badge text="豪华" type="tip"/> 
+## 公主连结wiki
 关键词|说明
 :--|:--|:--
 <b><b>(@bot)</b></b>简介ue|	查询角色简介
@@ -186,14 +191,14 @@ HelloWorld.jpg/生成表情包我要白丝!|	将`.jpg`前的文字或`生成表�
 启用wiki|	启用wiki
 禁用wiki|	禁用wiki
 
-## 点歌<Badge text="豪华" type="tip"/> 
+## 点歌
 <b>相关服务:music</b>
 关键词|说明
 :--|:--|:--
 点歌 oath sign|	点一首歌
 选择 0|	从点歌结果中选择一首
 
-## PCR集卡小游戏<Badge text="豪华" type="tip"/> 
+## PCR集卡小游戏
 <b>相关服务:pokemanpcr</b>
 关键词|说明
 :--|:--|:--
@@ -210,21 +215,21 @@ HelloWorld.jpg/生成表情包我要白丝!|	将`.jpg`前的文字或`生成表�
 3.一天最多抽取20次
 :::
 
-## PCR午间音乐<Badge text="豪华" type="tip"/>
+## PCR午间音乐
 <b>相关服务:pcrmiddaymusic</b>
 关键词|说明
 :--|:--|:--
 来点音乐|随机推送一首公主连结相关音乐|
 来点音乐 关键词|寻找活动名/歌曲名含有关键词的音乐并推送|
 
-## 惠惠的爆裂魔法<Badge text="豪华" type="tip"/>
+## 惠惠的爆裂魔法
 <b>相关服务:explosion</b>
 关键词|说明
 :--|:--|:--
 爆裂魔法/爆烈魔法|让惠惠来一发爆裂魔法吧!
 <b>(@bot)</b>补魔|又能来一发了呢~
 
-## 其他娱乐功能<Badge text="豪华" type="tip"/>
+## 其他娱乐功能
 功能名称|关键词|说明
 :--|:--|:--
 今日运势(PCR版)<Badge text="NEW" type="warning"/> |<b>(@bot)</b>抽签/人品/运势|<b>相关服务:portune</b>

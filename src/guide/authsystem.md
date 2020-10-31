@@ -2,7 +2,10 @@
 prev: ./updatelog
 next: ./clanbattle
 ---
-# 授权系统<Badge text="轻量" type="tip"/><Badge text="标准" type="tip"/><Badge text="豪华" type="tip"/> 
+# 授权系统
+::: warning 注意
+本页面是指南的预发布版本,与正式版本可能有所不同,且部分或全部更改还未作出。另外,此处的修改与正式版本的修改亦可能不同。
+:::
 ---------
 
 关键词|说明

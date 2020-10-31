@@ -3,36 +3,115 @@ prev: ./clanbattle
 next: ./funfunc
 ---
 # 实用功能
-
+::: warning 注意
+本页面是指南的预发布版本,与正式版本可能有所不同,且部分或全部更改还未作出。另外,此处的修改与正式版本的修改亦可能不同。
+:::
+::: tip 提示
+本页功能仅在会战&实用版提供。
+:::
 ## 查询类
+### 公会排名查询
+
+<b>相关服务:epck</b>
 
 关键词|说明
 :--|:--|:--
-怎么拆 5个角色名(以空格分隔)<Badge text="标准" type="tip"/><Badge text="豪华" type="tip"/> |	查找jjc解法,指定区服可改用"b怎么拆/台怎么拆/日怎么拆"<br><b>相关服务:pcr-arena</b>
-jjc查询 5个角色名(以空格分隔)<Badge text="轻量" type="tip"/>|查找jjc解法
-pcr速查<Badge text="标准" type="tip"/><Badge text="豪华" type="tip"/>|	pcr的主要攻略和数据站速览<br><b>相关服务:pcr-query</b>
-bcr速查<Badge text="标准" type="tip"/><Badge text="豪华" type="tip"/>|	国服萌新攻略<br><b>相关服务:pcr-query</b>
-日/台/陆rank表<Badge text="标准" type="tip"/><Badge text="豪华" type="tip"/>|	查看各服rank推荐表<br><b>相关服务:pcr-query</b>
-黄骑充电表<Badge text="标准" type="tip"/><Badge text="豪华" type="tip"/>|	黄骑1动规律<br><b>相关服务:pcr-query</b>
-谁是xcw<Badge text="标准" type="tip"/><Badge text="豪华" type="tip"/>|	角色别称查询<br><b>相关服务:pcr-query</b>
-挖矿计算 当前名次<Badge text="标准" type="tip"/><Badge text="豪华" type="tip"/>|	计算剩余可获得的奖励钻石<br><b>相关服务:pcr-query</b>
-一个顶俩<Badge text="标准" type="tip"/><Badge text="豪华" type="tip"/>|	台服接龙小游戏<br><b>相关服务:pcr-query</b>
-B/台服新闻<Badge text="标准" type="tip"/><Badge text="豪华" type="tip"/>|	显示最新的B/台服新闻<br><b>相关服务:pcr-news-bili(B服)、pcr-news-tw(台服)</b>	
-官漫132<Badge text="标准" type="tip"/><Badge text="豪华" type="tip"/>|	阅读官方四格漫画指定话(汉化更新至200话)<br><b>相关服务:pcr-comic</b>
+会战排名 公会名/排名|查看指定名字或指定排名的公会排名
+会战锁定 公会名|绑定本群的公会
+会战解锁 公会名|解绑本群的公会
+公会排名|	查询本群绑定的公会的排名信息
+<b>(自动)</b>公会排名推送|	每天早5点30分自动推送本群绑定的公会的排名信息
+
+::: tip 提示
+请在结束会战后取消公会绑定,并在下一次会战开始前重新绑定,否则非会战期间也会推送排名信息。
+:::
+
+### 其他查询类功能
+关键词|说明
+:--|:--|:--
+怎么拆 5个角色名(以空格分隔)|	查找jjc解法,指定区服可改用"b怎么拆/台怎么拆/日怎么拆"<br><b>相关服务:pcr-arena</b>
+jjc查询 5个角色名(以空格分隔)|查找jjc解法
+pcr速查|	pcr的主要攻略和数据站速览<br><b>相关服务:pcr-query</b>
+bcr速查|	国服萌新攻略<br><b>相关服务:pcr-query</b>
+日/台/陆rank表|	查看各服rank推荐表<br><b>相关服务:pcr-query</b>
+黄骑充电表|	黄骑1动规律<br><b>相关服务:pcr-query</b>
+谁是xcw|	角色别称查询<br><b>相关服务:pcr-query</b>
+挖矿计算 当前名次|	计算剩余可获得的奖励钻石<br><b>相关服务:pcr-query</b>
+一个顶俩|	台服接龙小游戏<br><b>相关服务:pcr-query</b>
+B/台服新闻|	显示最新的B/台服新闻<br><b>相关服务:pcr-news-bili(B服)、pcr-news-tw(台服)</b>	
+官漫132|	阅读官方四格漫画指定话(汉化更新至200话)<br><b>相关服务:pcr-comic</b>
 
 ## 订阅类
 
 关键词|说明
 :--|:--|:--
-<b>(自动)</b>日/台/国服背刺时间提醒<Badge text="标准" type="tip"/><Badge text="豪华" type="tip"/>|<b>相关服务:pcr-arena-reminder-jp(日服)、pcr-arena-reminder-tw(国台服)</b>
-<b>(自动)</b>官方四格漫画更新提示(日文)<Badge text="标准" type="tip"/><Badge text="豪华" type="tip"/>|<b>相关服务:pcr-comic</b>	
-<b>(自动)</b>整点报时<Badge text="豪华" type="tip"/> |<b>相关服务:hourcall</b>	
-<b>(自动)</b>新闻推送<Badge text="标准" type="tip"/><Badge text="豪华" type="tip"/>|	推送最新的新闻<br><b>相关服务:pcr-news-bili(B服)、pcr-news-tw(台服)、pcr-twitter(日服,暂时关闭)</b>	
-<b>(自动)</b>提醒买药小助手(国/台服)<Badge text="豪华" type="tip"/>|	每天0、6、12、18点提醒买药(UTC+8)<br><b>相关服务:hourcallyao</b>
-<b>(自动)</b>提醒买药小助手(日服)<Badge text="豪华" type="tip"/>|	每天0、6、12、18点提醒买药(UTC+9)<br><b>相关服务:hourcallyaojp</b>
+<b>(自动)</b>日/台/国服背刺时间提醒|<b>相关服务:pcr-arena-reminder-jp(日服)、pcr-arena-reminder-tw(国台服)</b>
+<b>(自动)</b>官方四格漫画更新提示(日文)|<b>相关服务:pcr-comic</b>	
+<b>(自动)</b>整点报时|<b>相关服务:hourcall</b>	
+<b>(自动)</b>新闻推送|	推送最新的新闻<br><b>相关服务:pcr-news-bili(B服)、pcr-news-tw(台服)、pcr-twitter(日服,暂时关闭)</b>	
+<b>(自动)</b>提醒买药小助手(国/台服)|	每天0、6、12、18点提醒买药(UTC+8)<br><b>相关服务:hourcallyao</b>
+<b>(自动)</b>提醒买药小助手(日服)|	每天0、6、12、18点提醒买药(UTC+9)<br><b>相关服务:hourcallyaojp</b>
 
-## 其他实用功能<Badge text="标准" type="tip"/><Badge text="豪华" type="tip"/> 
+## 会战类
+### box统计
+<b>相关服务:boxcolle</b>
+::: danger 警告
+初次使用时需要设置数据库名称,请设置一个独特的名字,避免被其他人通过"切换数据库"命令读取。
+:::
 
+关键词|说明
+:--|:--|:--
+一键box统计 [补录] | 在配置完box统计参数后使用此指令,机器人会自动私聊公会成员统计其box。如果填写参数"补录",则会开启补录模式,只让成员填写他们还没录入的角色星级。
+设置box统计 数据库名 统计对象 备注 统计的角色名(逗号分隔) | 统计对象参数目前支持填写"all"(全部成员) 或"allE@xxx@yyy"(全部成员除去xxx和yyy) 或"@xxx@yyy"(xxx和yyy)
+查看box统计 数据库名 | 查看指定数据库的统计情况
+查看box统计 数据库名 @qq | 查看指定用户的角色星级
+查看box统计 数据库名 角色名 | 查看指定角色的星级分布
+查看box统计 数据库名 @qq 角色名 | 查看指定用户的指定角色星级
+删除box数据 数据库名 @qq | 删除指定用户的box信息
+删除box数据 数据库名 角色名 | 删除数据库中指定角色的所有录入信息
+查看box数据库名 数据库名 | 查看所有存放box的数据库的名称
+查看已统计角色 数据库名 | 查看已经录入数据库的所有角色名称
+导出box统计表 数据库名 | 从数据库中导出csv格式的box统计表格到后台
+发送box统计图 数据库名 | 机器人发送图片形式的box统计表格到群里
+
+### 存轴器
+<b>相关服务:timeline</b>
+::: danger 警告
+初次使用时需要设置数据库名称,请设置一个独特的名字,避免被其他人通过"切换数据库"命令读取。
+:::
+
+关键词|说明
+:--|:--|:--
+录入轴 A/B 1/2/3/4/5 伤害 说明 轴| 
+查找轴 A/B 1/2/3/4/5 |
+查找轴 编号 |
+更新轴 编号 伤害 说明 轴 |
+删除轴 编号 |
+赞同轴 编号 |赞同数,非管理员只能填1/-1
+查看轴库名|
+切换轴库 新轴库名 |
+
+::: tip 提示
+如需清空轴库,只需切换到一个新的轴库即可,无需操作原来的轴库。
+:::
+
+### 会战报告
+
+<b>相关服务:离职报告</b>
+
+关键词|说明
+:--|:--|:--
+生成离职报告|	生成自己的离职报告
+生成会战报告|	生成自己的本期会战报告
+<b>(管理员)</b>看看报告@某人|	看某人的会战报告
+
+::: warning 注意
+能成功生成离职报告需要以下两个条件:  
+1.您当前在系统中属于一个公会,且该公会未被删除;  
+2.您在当前档案中有出刀记录
+:::
+
+## 其他实用功能
 功能名称|关键词|说明
 :--|:--|:--
 无损音乐搜索|搜无损 音乐名|<b>相关服务:flac</b>
