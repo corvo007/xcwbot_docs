@@ -31,11 +31,10 @@ next: ./saleactivity
   </div>
 </template>
 
-## 赞助流程
 <template>
   <div>
     <a-tabs default-active-key="1" :size="size" @change="callback">
-      <a-tab-pane key="1" tab="我之前从未赞助过">
+      <a-tab-pane key="1" tab="我之前从未使用过">
         <template>
   <div>
     <a-steps :current="current_new" @change="onChange_new">
@@ -74,7 +73,7 @@ next: ./saleactivity
 }
 </style>
       </a-tab-pane>
-      <a-tab-pane key="2" tab="我之前已经赞助过了" force-render>
+      <a-tab-pane key="2" tab="我之前已经使用过了" force-render>
         <template>
   <div>
     <a-steps :current="current_old" @change="onChange_old">
@@ -116,6 +115,20 @@ next: ./saleactivity
     </a-tabs>
   </div>
 </template>
+
+## 赞助流程
+<template>
+  <a-steps direction="vertical" :current="0" >
+    <a-step v-for='item in vertical_steps' :title='item.title' :subTitle='item.subTitle'>
+    <template slot="description">
+    <p v-show='item.id===0'>测试</p>
+    </template>
+    </a-step>
+  </a-steps>
+  
+</template>
+
+
 
 
 
@@ -170,43 +183,7 @@ next: ./saleactivity
 </style>
       </a-tab-pane>
       <a-tab-pane key="2" tab="联系维护组转移" force-render>
-        <template>
-  <div>
-    <a-steps :current="current_manual" @change="onChange_manual">
-      <a-step v-for="item in steps_manual" :key="item.title" :title="item.title" :description="item.description" />
-    </a-steps>
-    <div class="steps-content" v-html="steps_manual[current_manual].content">
-    </div>
-    <div class="steps-action">
-      <a-button v-if="current_manual < steps_manual.length - 1" type="primary" @click="next_manual">
-        下一步
-      </a-button>
-      <a-button
-        v-if="current_manual == steps_manual.length - 1"
-        type="primary"
-      >
-        结束
-      </a-button>
-      <a-button v-if="current_manual > 0" style="margin-left: 8px" @click="prev_manual">
-        上一步
-      </a-button>
-    </div>
-  </div>
-</template>
-<style scoped>
-.steps-content {
-  margin-top: 16px;
-  border: 1px dashed #e9e9e9;
-  border-radius: 6px;
-  background-color: #fafafa;
-  min-height: 200px;
-  text-align: center;
-  padding-top: 80px;
-}
-.steps-action {
-  margin-top: 24px;
-}
-</style>
+      <b>测试</b>
       </a-tab-pane>
     </a-tabs>
   </div>
@@ -233,7 +210,6 @@ export default {
     return {
       current_new: 0,
        current_old: 0,
-       current_manual:0,
        current_auto: 0,
       size: 'large',
       steps_new: [
@@ -273,40 +249,43 @@ export default {
       ],
       steps_auto: [
         {
-          title: 'First',
-          description: 'description',
+          title: '先决条件',
+          description: '自助转移授权需要满足的条件',
           content: 'First-content',
         },
         {
-          title: 'Second',
-          description: 'description',
+          title: '生成转移码',
+          description: '在转出群中atBot并发送指令',
           content: 'Second-content',
         },
         {
-          title: 'Last',
-          description: 'description',
+          title: '使用转移码确认转移',
+          description: '私聊Bot并发送指令',
           content: `
 `,
         },
       ],
-      steps_manual: [
-        {
-          title: 'First',
-          description: 'description',
-          content: 'First-content',
-        },
-        {
-          title: 'Second',
-          description: 'description',
-          content: 'Second-content',
-        },
-        {
-          title: 'Last',
-          description: 'description',
-          content: `
-`,
-        },
-      ],
+      vertical_steps:[
+          {
+              id:0,
+              title:'test',
+              subTitle:'test'
+          },
+          {
+              id:1,
+              title:'test',
+              subTitle:'test'
+          },
+          {
+              id:2,
+              title:'test',
+              subTitle:'test'
+          },
+          {
+              id:3,
+              title:'test',
+              subTitle:'test'
+          }],
       };
   },
   methods: {
@@ -319,9 +298,6 @@ export default {
     next_old() {
       this.current_old++;
     },
-    next_manual() {
-      this.current_manual++;
-    },
     next_auto() {
       this.current_auto++;
     },
@@ -330,9 +306,6 @@ export default {
     },
     prev_old() {
       this.current_old--;
-    },
-    prev_manual() {
-      this.current_manual--;
     },
     prev_auto() {
       this.current_auto--;
@@ -344,10 +317,6 @@ export default {
     onChange_new(current) {
       console.log('onChange:', current);
       this.current_new = current;
-    },
-    onChange_manual(current) {
-      console.log('onChange:', current);
-      this.current_manual = current;
     },
     onChange_auto(current) {
       console.log('onChange:', current);

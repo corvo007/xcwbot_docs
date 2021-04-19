@@ -7,6 +7,12 @@
 
     <PageNav v-bind="{ sidebarItems }" />
 
+    <template>
+  <div>
+    <a-back-top />
+  </div>
+</template>
+
     <slot name="bottom" /><div class="footinfo">Copyright © 2020-2021 xcwbot.com. All Rights Reserved.&nbsp;小仓唯Bot&nbsp;版权所有</div>
   </main>
 </template>
