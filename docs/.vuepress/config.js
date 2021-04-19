@@ -16,8 +16,8 @@ module.exports = {
     smoothScroll: true,
     nav: require("./config/nav"),
     sidebar: require("./config/sidebar"),
-    lastUpdated: "Last Updated",
-    repo: "https://github.com/corvo007",
+    lastUpdated: "上次更新",
+    repo: "https://github.com/corvo007/xcwbot_docs_release",
     editLinks: false,
     algolia: {
       apiKey: 'badb7dba029bf0d305532529f3bf6469',

@@ -8,7 +8,7 @@ module.exports = [
     link: '/guide/introduction',
   },
   {
-    text: '购买指南',
+    text: '赞助指南',
     link: '/shop/guide'
   },
   {
