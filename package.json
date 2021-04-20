@@ -10,7 +10,7 @@
     "publish_prod": "vuepress build docs && tcb hosting:deploy ./docs/.vuepress/dist -e vuepress-8gx9890j5b2022e5"
   },
   "keywords": [],
-  "author": "Feng L.H.",
+  "author": "corvo007",
   "license": "MIT",
   "devDependencies": {
     "@vuepress/plugin-medium-zoom": "^1.8.2",

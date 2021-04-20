@@ -13,7 +13,7 @@
   </div>
 </template>
 
-    <slot name="bottom" /><div class="footinfo">Copyright © 2020-2021 xcwbot.com. All Rights Reserved.&nbsp;小仓唯Bot&nbsp;版权所有</div>
+    <slot name="bottom" /><div class="footinfo">Copyright © 2020-2021 xcwbot.com. All Rights Reserved.</div>
   </main>
 </template>
 
@@ -39,7 +39,7 @@ export default {
   margin-top: 20px;
   bottom: 0;
   color:#65a3f0;
-  background-color: #a5caf17e;
+  background-color: #3eaf7c;
   font-size: 12px;
   text-align: center;
   height: 25px;
