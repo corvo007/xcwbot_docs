@@ -38,7 +38,7 @@ export default {
   position: fixed;
   margin-top: 20px;
   bottom: 0;
-  color:#FFFFFF;
+  color:#3eaf7c;
   background-color: rgba(62,175,124,.1);
   font-size: 12px;
   text-align: center;
