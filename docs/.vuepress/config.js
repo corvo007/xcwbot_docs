@@ -24,4 +24,12 @@ module.exports = {
       indexName: 'pcrbotlink',
     }
   },
+  plugins: {
+    '@vuepress/medium-zoom': {
+      selector: '.theme-antdocs-content :not(a) > img',
+      options: {
+        margin: 16
+      }
+    }
+  }
 };

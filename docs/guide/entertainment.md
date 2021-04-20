@@ -235,7 +235,11 @@ HelloWorld.jpg/生成表情包我要白丝！|	将`.jpg`前的文字或`生成�
 
 ## 原神查询&娱乐
 <b>相关服务:原神丘丘语翻译、原神帮助、原神抽卡、原神神瞳信息查询、原神资源图</b>
-<table>
+<template>
+  <div>
+    <a-collapse>
+      <a-collapse-panel key="1" header="点击展开功能说明">
+        <table>
    <tr>
       <td><b>指令</b></td>
       <td><b>说明</B></td>
@@ -348,6 +352,10 @@ HelloWorld.jpg/生成表情包我要白丝！|	将`.jpg`前的文字或`生成�
       <td>查看自己体力值</td>
    </tr>
 </table>  
+      </a-collapse-panel>
+    </a-collapse>
+  </div>
+</template>
 
 ## 海 豹 杀 手<Badge text="花费金币" type="warning"/>
 ::: tip 提示
@@ -384,26 +392,40 @@ HelloWorld.jpg/生成表情包我要白丝！|	将`.jpg`前的文字或`生成�
 ::: danger 风险提示
 <b>大头菜交易可能获得比较高的收益，但也存在比较大的风险，请您根据自身的风险承受能力，审慎作出决定。建议在购买前填写[个人投资者风险承受能力评估问卷](https://www.sac.net.cn/tzzyd/fzgj/201205/t20120503_15058.html)了解自身对于风险的承受能力。如果分类为积极型、相对积极型或以下的，不建议进行大头菜交易。</b>
 :::
-::: tip 交易规则介绍
-1.每周<b>星期天11:00~20:00</b>可以<b>购买</b>大头菜，而每周<b>星期一到星期六11:00~20:00</b>可以<b>卖掉、借入、归还</b>大头菜。  
-2.大头菜的价格<b>每半个小时</b>更新一次，<b>非交易时段不更新</b>。    
-3.如果你在上周日买的大头菜在<b>星期六结束交易</b>之后仍然没有卖出，则会<b>坏掉</b>，坏掉的大头菜价值<b>非常低</b>。     
-4.借入的大头菜请在<b>本周六结束交易</b>之前归还，未还的部分会被<b>强制归还</b>并加收<b>10%</b>逾期金。     
-5.<b>借入</b>大头菜时需要满足以下<b>所有</b>条件：  
-   - 当前<b>所有</b>借出的大头菜数量与拟借出的大头菜数量合计不超过<b>25000</b>株；  
-   - 借入大头菜后，当前自己借入大头菜的总数<b>不超过</b>1000株；
-   - 在交易时间内且<b>不是</b>星期天；  
-   - <b>不</b>持有大头菜；  
-   - 拥有相当于拟借出大头菜现值<b>80%</b>的金币。 
- 
-6.<b>归还</b>大头菜需要满足以下条件<b>之一</b>：
-   - 拥有相当于拟归还大头菜<b>现值</b>的金币；
-   - 持有大头菜数量<b>大于或等于</b>拟归还大头菜数量；
-   - 持有大头菜数量不足以归还，但拥有相当于持有大头菜数量与拟归还大头菜<b>数量之差</b>的大头菜之<b>价值</b>的金币
+<template>
+  <div>
+    <a-collapse :bordered="false">
+      <a-collapse-panel key="1" header="交易规则介绍(点击以展开)" style="background:#F6FFED">
+      <ol>
+      <li>每周<b>星期天11:00~20:00</b>可以<b>购买</b>大头菜，而每周<b>星期一到星期六11:00~20:00</b>可以<b>卖掉、借入、归还</b>大头菜。  </li>
+      <li>大头菜的价格<b>每半个小时</b>更新一次，<b>非交易时段不更新</b>。   </li>
+      <li>如果你在上周日买的大头菜在<b>星期六结束交易</b>之后仍然没有卖出，则会<b>坏掉</b>，坏掉的大头菜价值<b>非常低</b>。</li>
+      <li>借入的大头菜请在<b>本周六结束交易</b>之前归还，未还的部分会被<b>强制归还</b>并加收<b>10%</b>逾期金。     </li>
+      <li><b>借入</b>大头菜时需要满足以下<b>所有</b>条件：  </br>
+      <ul>
+        <li>当前<b>所有</b>借出的大头菜数量与拟借出的大头菜数量合计不超过<b>25000</b>株；  </li>
+        <li>借入大头菜后，当前自己借入大头菜的总数<b>不超过</b>1000株；</li>
+        <li>在交易时间内且<b>不是</b>星期天； </li>
+        <li><b>不</b>持有大头菜；</li>
+        <li>拥有相当于拟借出大头菜现值<b>80%</b>的金币。</li>
+        </ul>
+      </li>
+      <li><b>归还</b>大头菜需要满足以下条件<b>之一</b>：</br>
+      <ul>
+      <li>拥有相当于拟归还大头菜<b>现值</b>的金币；</li>
+      <li>持有大头菜数量<b>大于或等于</b>拟归还大头菜数量；</li>
+      <li>持有大头菜数量不足以归还，但拥有相当于持有大头菜数量与拟归还大头菜<b>数量之差</b>的大头菜之<b>价值</b>的金币</li>
+      </ul>
+      </li>
+      <li>灵感及主要设计来自于游戏《集合吧！动物森友会》。</li>
+      <li>以上所述日期及时间以北京时间(UTC+8)为准。</li>
+      </ol>
+      </a-collapse-panel>
+    </a-collapse>
+  </div>
+</template>
 
-7.灵感及主要设计来自于游戏《集合吧！动物森友会》。    
-8.以上所述日期及时间以北京时间(UTC+8)为准。
-:::
+
 |指令|说明|
 |:-----|:-----|
 查看价格 大头菜| 查看大头菜的价格  
@@ -428,39 +450,40 @@ HelloWorld.jpg/生成表情包我要白丝！|	将`.jpg`前的文字或`生成�
 ::: warning 注意
 直播间类订阅只有在开播时才能订阅。
 :::
-指令|说明
-|:-----|:-----|
-订阅列表|查看订阅列表
-添加订阅 动态/追番 uid|添加b站up主动态/追番更新的订阅
-添加订阅 投稿/专栏 uid|添加b站up主投稿/专栏更新的订阅
-添加订阅 排行榜 分区id|添加b站排行榜订阅
-添加订阅 直播 房间号|添加b站直播间开播订阅
-添加订阅 漫画 漫画id|添加b站漫画更新订阅(漫画id：b漫网址https://manga.bilibili.com/detail/mc26505 中的26505即是漫画id)
-添加订阅 明日方舟|添加明日方舟新闻订阅
-添加订阅 原神|添加原神新闻订阅
-添加订阅 pcr X服动态|添加公主连结国/台/日服动态订阅(X=国/台/日)
-添加订阅 斗鱼直播 房间号|添加斗鱼直播间开播订阅
-添加订阅 虎牙直播 房间号|添加虎牙直播间开播订阅
-删除订阅 订阅序号|删除订阅列表指定项
-简略模式 订阅序号 启用/禁用|为指定订阅设置推送消息模式：启用，推送消息仅包含标题；禁用，推送消息包含详情及图片  
 
-## 贵族决斗
-<b>相关服务：贵族决斗</b>
+<template>
+  <div>
+    <a-collapse>
+      <a-collapse-panel key="1" header="点击展开功能说明">
+        <table><thead><tr><th style="text-align: left;">指令</th> <th style="text-align: left;">说明</th></tr></thead> <tbody><tr><td style="text-align: left;">订阅列表</td> <td style="text-align: left;">查看订阅列表</td></tr> <tr><td style="text-align: left;">添加订阅 动态/追番 uid</td> <td style="text-align: left;">添加b站up主动态/追番更新的订阅</td></tr> <tr><td style="text-align: left;">添加订阅 投稿/专栏 uid</td> <td style="text-align: left;">添加b站up主投稿/专栏更新的订阅</td></tr> <tr><td style="text-align: left;">添加订阅 排行榜 分区id</td> <td style="text-align: left;">添加b站排行榜订阅</td></tr> <tr><td style="text-align: left;">添加订阅 直播 房间号</td> <td style="text-align: left;">添加b站直播间开播订阅</td></tr> <tr><td style="text-align: left;">添加订阅 漫画 漫画id</td> <td style="text-align: left;">添加b站漫画更新订阅(漫画id：b漫网址https://manga.bilibili.com/detail/mc26505 中的26505即是漫画id)</td></tr> <tr><td style="text-align: left;">添加订阅 明日方舟</td> <td style="text-align: left;">添加明日方舟新闻订阅</td></tr> <tr><td style="text-align: left;">添加订阅 原神</td> <td style="text-align: left;">添加原神新闻订阅</td></tr> <tr><td style="text-align: left;">添加订阅 pcr X服动态</td> <td style="text-align: left;">添加公主连结国/台/日服动态订阅(X=国/台/日)</td></tr> <tr><td style="text-align: left;">添加订阅 斗鱼直播 房间号</td> <td style="text-align: left;">添加斗鱼直播间开播订阅</td></tr> <tr><td style="text-align: left;">添加订阅 虎牙直播 房间号</td> <td style="text-align: left;">添加虎牙直播间开播订阅</td></tr> <tr><td style="text-align: left;">删除订阅 订阅序号</td> <td style="text-align: left;">删除订阅列表指定项</td></tr> <tr><td style="text-align: left;">简略模式 订阅序号 启用/禁用</td> <td style="text-align: left;">为指定订阅设置推送消息模式：启用，推送消息仅包含标题；禁用，推送消息包含详情及图片</td></tr></tbody></table>
+      </a-collapse-panel>
+    </a-collapse>
+  </div>
+</template>
 
-**因帮助过于繁杂，请在群内发送`贵族决斗帮助`查看。**
 ## 其他娱乐功能
-功能名称|指令|说明
-:--|:--|:--
-今日运势(PCR版)|<b>(@bot)</b>抽签/人品/运势|<b>相关服务:运势</b>
-网抑云时间|<b>(@bot)</b>网抑云/上号|	随机来句网抑云语录<br><b>相关服务:网抑云</b>
-好看的东西|来点好看的|	发点好看的，仅限22点至次日3点使用<br><b>相关服务:-好看的东西-</b>
-迫害龙王|迫害龙王|	<Badge text="获得金币" type="tip"/><Badge text="花费金币" type="warning"/><br><b>相关服务:迫害龙王</b>
-能不能好好说话?(缩写释义)|转义 缩写|<b>相关服务:能不能好好说话</b>
-猜猜我是谁？|cygames|<Badge text="获得金币" type="tip"/><br><b>相关服务:猜声音</b>
-语音小彩蛋|戳一戳bot即可|*限于最新版手机QQ(TIM/PCQQ不能戳一戳)<br><b>相关服务:聊天</b>
-反骑空士|<b>(自动)</b>|戳破骑空士的阴谋吧！<br><b>相关服务:反骑空士</b>
-反哔哩哔哩小程序|<b>(自动)</b>|让那些哔哩哔哩小程序都见鬼去吧！
-猜群友|猜群友|<Badge text="获得金币" type="tip"/><br>提交答案的方式:直接at目标群友 或者 完整输入群友的昵称<br><b>相关服务:猜群友</b>
-报时|报时|<b>相关服务:现在几点</b>
-有内鬼图片生成器|有内鬼 文字|<b>相关服务:有内鬼</b>
-高情商图片生成器|低情商文案1高情商文案2|<b>相关服务:高情商</b>
+
+<template>
+  <div>
+    <a-collapse>
+      <a-collapse-panel key="1" header="点击展开功能说明">
+        <table><thead><tr><th style="text-align: left;">功能名称</th> <th style="text-align: left;">指令</th> <th style="text-align: left;">说明</th></tr></thead> <tbody><tr><td style="text-align: left;">今日运势(PCR版)</td> <td style="text-align: left;"><b>(@bot)</b>抽签/人品/运势</td> <td style="text-align: left;"><b>相关服务:运势</b></td></tr> <tr><td style="text-align: left;">网抑云时间</td> <td style="text-align: left;"><b>(@bot)</b>网抑云/上号</td> <td style="text-align: left;">随机来句网抑云语录<br><b>相关服务:网抑云</b></td></tr> <tr><td style="text-align: left;">好看的东西</td> <td style="text-align: left;">来点好看的</td> <td style="text-align: left;">发点好看的，仅限22点至次日3点使用<br><b>相关服务:-好看的东西-</b></td></tr> <tr><td style="text-align: left;">迫害龙王</td> <td style="text-align: left;">迫害龙王</td> <td style="text-align: left;"><span data-v-4cb41744="" class="badge tip" style="vertical-align: top;">获得金币</span><span data-v-4cb41744="" class="badge warning" style="vertical-align: top;">花费金币</span><br><b>相关服务:迫害龙王</b></td></tr> <tr><td style="text-align: left;">能不能好好说话?(缩写释义)</td> <td style="text-align: left;">转义 缩写</td> <td style="text-align: left;"><b>相关服务:能不能好好说话</b></td></tr> <tr><td style="text-align: left;">猜猜我是谁？</td> <td style="text-align: left;">cygames</td> <td style="text-align: left;"><span data-v-4cb41744="" class="badge tip" style="vertical-align: top;">获得金币</span><br><b>相关服务:猜声音</b></td></tr> <tr><td style="text-align: left;">语音小彩蛋</td> <td style="text-align: left;">戳一戳bot即可</td> <td style="text-align: left;">*限于最新版手机QQ(TIM/PCQQ不能戳一戳)<br><b>相关服务:聊天</b></td></tr> <tr><td style="text-align: left;">反骑空士</td> <td style="text-align: left;"><b>(自动)</b></td> <td style="text-align: left;">戳破骑空士的阴谋吧！<br><b>相关服务:反骑空士</b></td></tr> <tr><td style="text-align: left;">反哔哩哔哩小程序</td> <td style="text-align: left;"><b>(自动)</b></td> <td style="text-align: left;">让那些哔哩哔哩小程序都见鬼去吧！</td></tr> <tr><td style="text-align: left;">猜群友</td> <td style="text-align: left;">猜群友</td> <td style="text-align: left;"><span data-v-4cb41744="" class="badge tip" style="vertical-align: top;">获得金币</span><br>提交答案的方式:直接at目标群友 或者 完整输入群友的昵称<br><b>相关服务:猜群友</b></td></tr> <tr><td style="text-align: left;">报时</td> <td style="text-align: left;">报时</td> <td style="text-align: left;"><b>相关服务:现在几点</b></td></tr> <tr><td style="text-align: left;">有内鬼图片生成器</td> <td style="text-align: left;">有内鬼 文字</td> <td style="text-align: left;"><b>相关服务:有内鬼</b></td></tr> <tr><td style="text-align: left;">高情商图片生成器</td> <td style="text-align: left;">低情商文案1高情商文案2</td> <td style="text-align: left;"><b>相关服务:高情商</b></td></tr></tbody></table>
+      </a-collapse-panel>
+    </a-collapse>
+  </div>
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+      activeKey: ['1']
+    };
+  },
+  watch: {
+    activeKey(key) {
+      console.log(key);
+    },
+  },
+};
+</script>

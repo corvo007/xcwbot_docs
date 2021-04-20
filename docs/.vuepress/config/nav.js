@@ -1,7 +1,7 @@
 module.exports = [
   {
     text: '导览',
-    link: '/overview',
+    link: '/overview/',
   },
   {
     text: '使用手册',

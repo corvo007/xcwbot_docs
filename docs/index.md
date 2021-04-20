@@ -3,7 +3,7 @@ home: true
 heroImage: https://image.pcrbotlink.top/xcwtitle.jpg
 tagline: 多功能的公主连结Bot
 actionText: 快速上手 →
-actionLink: /overview
+actionLink: /overview/
 features:
 - title: 高可用性 
   details: 采用阿里云北京地域高配置服务器，并使用稳定性极佳的Bot后端，尽力减少计划外停机。
@@ -21,9 +21,9 @@ footerWrap:
     details: 快速了解本Bot
   - title: 商店
     link: https://shop.xcwbot.com/
-    details: 自助赞助，然后开始使用
+    details: 赞助，然后开始使用
   - title: 导览
-    link: /overview.html
+    link: /overview/
     details: 本站所有内容纵览
 - headline: 相关项目
   items:
