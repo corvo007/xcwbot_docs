@@ -452,13 +452,75 @@ HelloWorld.jpg/生成表情包我要白丝！|	将`.jpg`前的文字或`生成�
 :::
 
 <template>
-  <div>
-    <a-collapse>
-      <a-collapse-panel key="1" header="点击展开功能说明">
-        <table><thead><tr><th style="text-align: left;">指令</th> <th style="text-align: left;">说明</th></tr></thead> <tbody><tr><td style="text-align: left;">订阅列表</td> <td style="text-align: left;">查看订阅列表</td></tr> <tr><td style="text-align: left;">添加订阅 动态/追番 uid</td> <td style="text-align: left;">添加b站up主动态/追番更新的订阅</td></tr> <tr><td style="text-align: left;">添加订阅 投稿/专栏 uid</td> <td style="text-align: left;">添加b站up主投稿/专栏更新的订阅</td></tr> <tr><td style="text-align: left;">添加订阅 排行榜 分区id</td> <td style="text-align: left;">添加b站排行榜订阅</td></tr> <tr><td style="text-align: left;">添加订阅 直播 房间号</td> <td style="text-align: left;">添加b站直播间开播订阅</td></tr> <tr><td style="text-align: left;">添加订阅 漫画 漫画id</td> <td style="text-align: left;">添加b站漫画更新订阅(漫画id：b漫网址https://manga.bilibili.com/detail/mc26505 中的26505即是漫画id)</td></tr> <tr><td style="text-align: left;">添加订阅 明日方舟</td> <td style="text-align: left;">添加明日方舟新闻订阅</td></tr> <tr><td style="text-align: left;">添加订阅 原神</td> <td style="text-align: left;">添加原神新闻订阅</td></tr> <tr><td style="text-align: left;">添加订阅 pcr X服动态</td> <td style="text-align: left;">添加公主连结国/台/日服动态订阅(X=国/台/日)</td></tr> <tr><td style="text-align: left;">添加订阅 斗鱼直播 房间号</td> <td style="text-align: left;">添加斗鱼直播间开播订阅</td></tr> <tr><td style="text-align: left;">添加订阅 虎牙直播 房间号</td> <td style="text-align: left;">添加虎牙直播间开播订阅</td></tr> <tr><td style="text-align: left;">删除订阅 订阅序号</td> <td style="text-align: left;">删除订阅列表指定项</td></tr> <tr><td style="text-align: left;">简略模式 订阅序号 启用/禁用</td> <td style="text-align: left;">为指定订阅设置推送消息模式：启用，推送消息仅包含标题；禁用，推送消息包含详情及图片</td></tr></tbody></table>
-      </a-collapse-panel>
-    </a-collapse>
-  </div>
+   <div>
+      <a-collapse>
+         <a-collapse-panel key="1" header="点击展开功能说明">
+            <table>
+               <thead>
+                  <tr>
+                     <th style="text-align: left;">指令</th>
+                     <th style="text-align: left;">说明</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <td style="text-align: left;">订阅列表</td>
+                     <td style="text-align: left;">查看订阅列表</td>
+                  </tr>
+                  <tr>
+                     <td style="text-align: left;">添加订阅 动态/追番 uid</td>
+                     <td style="text-align: left;">添加b站up主动态/追番更新的订阅</td>
+                  </tr>
+                  <tr>
+                     <td style="text-align: left;">添加订阅 投稿/专栏 uid</td>
+                     <td style="text-align: left;">添加b站up主投稿/专栏更新的订阅</td>
+                  </tr>
+                  <tr>
+                     <td style="text-align: left;">添加订阅 排行榜 分区id</td>
+                     <td style="text-align: left;">添加b站排行榜订阅</td>
+                  </tr>
+                  <tr>
+                     <td style="text-align: left;">添加订阅 直播 房间号</td>
+                     <td style="text-align: left;">添加b站直播间开播订阅</td>
+                  </tr>
+                  <tr>
+                     <td style="text-align: left;">添加订阅 漫画 漫画id</td>
+                     <td style="text-align: left;">添加b站漫画更新订阅(漫画id：b漫网址https://manga.bilibili.com/detail/mc26505
+                        中的26505即是漫画id)</td>
+                  </tr>
+                  <tr>
+                     <td style="text-align: left;">添加订阅 明日方舟</td>
+                     <td style="text-align: left;">添加明日方舟新闻订阅</td>
+                  </tr>
+                  <tr>
+                     <td style="text-align: left;">添加订阅 原神</td>
+                     <td style="text-align: left;">添加原神新闻订阅</td>
+                  </tr>
+                  <tr>
+                     <td style="text-align: left;">添加订阅 pcr X服动态</td>
+                     <td style="text-align: left;">添加公主连结国/台/日服动态订阅(X=国/台/日)</td>
+                  </tr>
+                  <tr>
+                     <td style="text-align: left;">添加订阅 斗鱼直播 房间号</td>
+                     <td style="text-align: left;">添加斗鱼直播间开播订阅</td>
+                  </tr>
+                  <tr>
+                     <td style="text-align: left;">添加订阅 虎牙直播 房间号</td>
+                     <td style="text-align: left;">添加虎牙直播间开播订阅</td>
+                  </tr>
+                  <tr>
+                     <td style="text-align: left;">删除订阅 订阅序号</td>
+                     <td style="text-align: left;">删除订阅列表指定项</td>
+                  </tr>
+                  <tr>
+                     <td style="text-align: left;">简略模式 订阅序号 启用/禁用</td>
+                     <td style="text-align: left;">为指定订阅设置推送消息模式：启用，推送消息仅包含标题；禁用，推送消息包含详情及图片</td>
+                  </tr>
+               </tbody>
+            </table>
+         </a-collapse-panel>
+      </a-collapse>
+   </div>
 </template>
 
 ## 其他娱乐功能
