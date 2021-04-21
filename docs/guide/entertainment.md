@@ -463,15 +463,90 @@ HelloWorld.jpg/生成表情包我要白丝！|	将`.jpg`前的文字或`生成�
 
 ## 其他娱乐功能
 
-<template>
-  <div>
-    <a-collapse>
-      <a-collapse-panel key="1" header="点击展开功能说明">
-        <table><thead><tr><th style="text-align: left;">功能名称</th> <th style="text-align: left;">指令</th> <th style="text-align: left;">说明</th></tr></thead> <tbody><tr><td style="text-align: left;">今日运势(PCR版)</td> <td style="text-align: left;"><b>(@bot)</b>抽签/人品/运势</td> <td style="text-align: left;"><b>相关服务:运势</b></td></tr> <tr><td style="text-align: left;">网抑云时间</td> <td style="text-align: left;"><b>(@bot)</b>网抑云/上号</td> <td style="text-align: left;">随机来句网抑云语录<br><b>相关服务:网抑云</b></td></tr> <tr><td style="text-align: left;">好看的东西</td> <td style="text-align: left;">来点好看的</td> <td style="text-align: left;">发点好看的，仅限22点至次日3点使用<br><b>相关服务:-好看的东西-</b></td></tr> <tr><td style="text-align: left;">迫害龙王</td> <td style="text-align: left;">迫害龙王</td> <td style="text-align: left;"><span data-v-4cb41744="" class="badge tip" style="vertical-align: top;">获得金币</span><span data-v-4cb41744="" class="badge warning" style="vertical-align: top;">花费金币</span><br><b>相关服务:迫害龙王</b></td></tr> <tr><td style="text-align: left;">能不能好好说话?(缩写释义)</td> <td style="text-align: left;">转义 缩写</td> <td style="text-align: left;"><b>相关服务:能不能好好说话</b></td></tr> <tr><td style="text-align: left;">猜猜我是谁？</td> <td style="text-align: left;">cygames</td> <td style="text-align: left;"><span data-v-4cb41744="" class="badge tip" style="vertical-align: top;">获得金币</span><br><b>相关服务:猜声音</b></td></tr> <tr><td style="text-align: left;">语音小彩蛋</td> <td style="text-align: left;">戳一戳bot即可</td> <td style="text-align: left;">*限于最新版手机QQ(TIM/PCQQ不能戳一戳)<br><b>相关服务:聊天</b></td></tr> <tr><td style="text-align: left;">反骑空士</td> <td style="text-align: left;"><b>(自动)</b></td> <td style="text-align: left;">戳破骑空士的阴谋吧！<br><b>相关服务:反骑空士</b></td></tr> <tr><td style="text-align: left;">反哔哩哔哩小程序</td> <td style="text-align: left;"><b>(自动)</b></td> <td style="text-align: left;">让那些哔哩哔哩小程序都见鬼去吧！</td></tr> <tr><td style="text-align: left;">猜群友</td> <td style="text-align: left;">猜群友</td> <td style="text-align: left;"><span data-v-4cb41744="" class="badge tip" style="vertical-align: top;">获得金币</span><br>提交答案的方式:直接at目标群友 或者 完整输入群友的昵称<br><b>相关服务:猜群友</b></td></tr> <tr><td style="text-align: left;">报时</td> <td style="text-align: left;">报时</td> <td style="text-align: left;"><b>相关服务:现在几点</b></td></tr> <tr><td style="text-align: left;">有内鬼图片生成器</td> <td style="text-align: left;">有内鬼 文字</td> <td style="text-align: left;"><b>相关服务:有内鬼</b></td></tr> <tr><td style="text-align: left;">高情商图片生成器</td> <td style="text-align: left;">低情商文案1高情商文案2</td> <td style="text-align: left;"><b>相关服务:高情商</b></td></tr></tbody></table>
-      </a-collapse-panel>
-    </a-collapse>
-  </div>
-</template>
+   <template>
+      <div>
+         <a-collapse>
+            <a-collapse-panel key="1" header="点击展开功能说明">
+               <table>
+                  <thead>
+                     <tr>
+                        <th style="text-align: left;">功能名称</th>
+                        <th style="text-align: left;">指令</th>
+                        <th style="text-align: left;">说明</th>
+                     </tr>
+                  </thead>
+                  <tbody>
+                     <tr>
+                        <td style="text-align: left;">今日运势(PCR版)</td>
+                        <td style="text-align: left;"><b>(@bot)</b>抽签/人品/运势</td>
+                        <td style="text-align: left;"><b>相关服务:运势</b></td>
+                     </tr>
+                     <tr>
+                        <td style="text-align: left;">网抑云时间</td>
+                        <td style="text-align: left;"><b>(@bot)</b>网抑云/上号</td>
+                        <td style="text-align: left;">随机来句网抑云语录<br><b>相关服务:网抑云</b></td>
+                     </tr>
+                     <tr>
+                        <td style="text-align: left;">好看的东西</td>
+                        <td style="text-align: left;">来点好看的</td>
+                        <td style="text-align: left;">发点好看的，仅限22点至次日3点使用<br><b>相关服务:-好看的东西-</b></td>
+                     </tr>
+                     <tr>
+                        <td style="text-align: left;">迫害龙王</td>
+                        <td style="text-align: left;">迫害龙王</td>
+                        <td style="text-align: left;"><span data-v-4cb41744="" class="badge tip"
+                              style="vertical-align: top;">获得金币</span><span data-v-4cb41744="" class="badge warning"
+                              style="vertical-align: top;">花费金币</span><br><b>相关服务:迫害龙王</b></td>
+                     </tr>
+                     <tr>
+                        <td style="text-align: left;">能不能好好说话?(缩写释义)</td>
+                        <td style="text-align: left;">转义 缩写</td>
+                        <td style="text-align: left;"><b>相关服务:能不能好好说话</b></td>
+                     </tr>
+                     <tr>
+                        <td style="text-align: left;">猜猜我是谁？</td>
+                        <td style="text-align: left;">cygames</td>
+                        <td style="text-align: left;"><span data-v-4cb41744="" class="badge tip"
+                              style="vertical-align: top;">获得金币</span><br><b>相关服务:猜声音</b></td>
+                     </tr>
+                     <tr>
+                        <td style="text-align: left;">语音小彩蛋</td>
+                        <td style="text-align: left;">戳一戳bot即可</td>
+                        <td style="text-align: left;">*限于最新版手机QQ(TIM/PCQQ不能戳一戳)<br><b>相关服务:聊天</b></td>
+                     </tr>
+                     <tr>
+                        <td style="text-align: left;">反骑空士</td>
+                        <td style="text-align: left;"><b>(自动)</b></td>
+                        <td style="text-align: left;">戳破骑空士的阴谋吧！<br><b>相关服务:反骑空士</b></td>
+                     </tr>
+                     <tr>
+                        <td style="text-align: left;">反哔哩哔哩小程序</td>
+                        <td style="text-align: left;"><b>(自动)</b></td>
+                        <td style="text-align: left;">让那些哔哩哔哩小程序都见鬼去吧！</td>
+                     </tr>
+                     <tr>
+                        <td style="text-align: left;">猜群友</td>
+                        <td style="text-align: left;">猜群友</td>
+                        <td style="text-align: left;"><span data-v-4cb41744="" class="badge tip"
+                              style="vertical-align: top;">获得金币</span><br>提交答案的方式:直接at目标群友 或者
+                           完整输入群友的昵称<br><b>相关服务:猜群友</b></td>
+                     </tr>
+                     <tr>
+                        <td style="text-align: left;">报时</td>
+                        <td style="text-align: left;">报时</td>
+                        <td style="text-align: left;"><b>相关服务:现在几点</b></td>
+                     </tr>
+                     <tr>
+                        <td style="text-align: left;">有内鬼图片生成器</td>
+                        <td style="text-align: left;">有内鬼 文字</td>
+                        <td style="text-align: left;"><b>相关服务:有内鬼</b></td>
+                     </tr>
+                  </tbody>
+               </table>
+            </a-collapse-panel>
+         </a-collapse>
+      </div>
+   </template>
 
 <script>
 export default {

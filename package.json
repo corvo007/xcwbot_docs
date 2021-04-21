@@ -4,7 +4,7 @@
   "description": "A VuePress project created by vuepress-creator.",
   "main": "index.js",
   "scripts": {
-    "dev": "vuepress dev docs",
+    "dev": "vuepress dev docs --host '127.0.0.1' --open",
     "build": "vuepress build docs",
     "publish_dev": "vuepress build docs && tcb hosting:deploy ./docs/.vuepress/dist -e vuepress-8gvr0yki21260a66",
     "publish_prod": "vuepress build docs && tcb hosting:deploy ./docs/.vuepress/dist -e vuepress-8gx9890j5b2022e5"
