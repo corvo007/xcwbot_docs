@@ -1,7 +1,6 @@
 module.exports = {
   theme: 'antdocs',
   title: '小仓唯Bot',
-  description: '小仓唯Bot文档',
   description: "小仓唯Bot的使用文档",
   base: "/",
   head: [
