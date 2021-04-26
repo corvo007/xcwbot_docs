@@ -1,7 +1,6 @@
 module.exports = {
   theme: 'antdocs',
   title: '小仓唯Bot',
-  description: '小仓唯Bot文档',
   description: "小仓唯Bot的使用文档",
   base: "/",
   head: [
@@ -16,12 +15,20 @@ module.exports = {
     smoothScroll: true,
     nav: require("./config/nav"),
     sidebar: require("./config/sidebar"),
-    lastUpdated: "Last Updated",
-    repo: "https://github.com/corvo007",
+    lastUpdated: "上次更新",
+    repo: "https://github.com/corvo007/xcwbot_docs_release",
     editLinks: false,
     algolia: {
       apiKey: 'badb7dba029bf0d305532529f3bf6469',
       indexName: 'pcrbotlink',
     }
   },
+  plugins: {
+    '@vuepress/medium-zoom': {
+      selector: '.theme-antdocs-content :not(a) > img',
+      options: {
+        margin: 16
+      }
+    }
+  }
 };

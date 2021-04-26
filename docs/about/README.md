@@ -10,6 +10,7 @@ next: false
 [Github - xcwbot](https://github.com/corvo007/xcwbot) 
 
 ## 联系我们
+可以点击链接发起会话或加群，若没有跳转，烦请复制群号或QQ号自行添加，谢谢。  
 <b>唯一指定QQ : [2144671869](http://wpa.qq.com/msgrd?v=3&uin=2144671869&site=qq&menu=yes)    </b>  
 <b>唯一指定QQ群 : [626463935](https://qm.qq.com/cgi-bin/qm/qr?k=hn4VL3tMGWcBsjydBncDcxyhKsjYWpKi&jump_from=webapi)  </b>  
 <b>唯一指定主页 : [https://xcwbot.com](https://xcwbot.com)  </b>  
