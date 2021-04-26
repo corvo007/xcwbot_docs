@@ -70,3 +70,5 @@ package-lock.json
 
 # useless files
 templete
+
+/.history
