@@ -1,14 +1,14 @@
 module.exports = [
   {
     text: '导览',
-    link: '/overview',
+    link: '/overview/',
   },
   {
     text: '使用手册',
     link: '/guide/introduction',
   },
   {
-    text: '购买指南',
+    text: '赞助指南',
     link: '/shop/guide'
   },
   {

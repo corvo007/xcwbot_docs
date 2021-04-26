@@ -7,7 +7,7 @@ next: ./clanbattleoperating
 :::
 
 ::: tip 提示
-如果您是第一次使用此部分功能，推荐先阅读[会战功能操作指导](/guide/clanbattleoperating.html)
+如果您是第一次使用此部分功能，推荐先阅读<b>[会战功能操作指导](/guide/clanbattleoperating.html)</b>
 :::
 
 ## 出刀管理(聊天端)
