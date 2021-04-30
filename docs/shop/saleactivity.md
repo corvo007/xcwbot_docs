@@ -54,6 +54,7 @@ sidebarDepth: 2
 敬请期待！
 
 <template><a-alert message="优惠券数量有限。" type="info" show-icon /></template>
+<template><a-alert message="为确保活动公平，一人五天内最多秒杀两张。" type="warn" show-icon /></template>
 
 <!--
 ### 小仓唯Bot“庆新年，迎新春”新年庆祝活动
