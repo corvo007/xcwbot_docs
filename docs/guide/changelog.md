@@ -16,6 +16,16 @@ prev: ./introduction
 挂树计时&报刀剩余刀数提醒|2021.5
 老婆系统扩展|——
 
+## 2021-5-26
+
+### 【会战实用版】 & 【会战版】
+- <a-tag color="green">更新</a-tag> <a href="/guide/clanbattle">会战管理系统</a>
+  - <a-tag color="blue">新增</a-tag> 代报人查看
+  - <a-tag color="blue">新增</a-tag> 挂树计时
+  - <a-tag color="blue">新增</a-tag> 进度查询
+  - <a-tag color="green">更新</a-tag> 五阶段(E面)
+  - <a-tag color="green">更新</a-tag> 后台管理界面,更加清楚易用
+
 ## 2021-4-24
 
 ### 【所有版本】
