@@ -2,7 +2,7 @@
 prev: false
 next: false
 ---
-# 小仓唯智能应答机器人最终用户使用许可协议(EULA)
+# 赞助用户最终用户使用许可协议(EULA)
 
 <p><b>最后更新日期:2021 年 5 月 2 日</b></p>
 <div style="text-indent:2em">

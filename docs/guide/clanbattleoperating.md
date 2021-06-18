@@ -3,17 +3,18 @@ prev: ./clanbattle
 next: ./tools
 ---
 # 操作指导
-
-::: tip 提示
-
-使用 Bot 管理公会战，需要所有成员遵守使用规则  
+<a-alert type="info" message="提示" show-icon>
+<template slot="description">
+使用 Bot 管理公会战，需要所有成员遵守使用规则  <br/>
 Bot 只是辅助作用，与成员多沟通才能提高分数
-
-:::
-::: tip 提示
-
-更多使用上的问题请前往<b>[常见问题解答](/guide/qa.html)</b>查看。
-:::
+</template>
+</a-alert>
+<p></p>
+<a-alert type="info" message="提示" show-icon>
+<template slot="description">
+更多使用上的问题请前往<b><a href="/guide/qa.html">常见问题解答</a></b>查看
+</template>
+</a-alert>
 
 ## 会战开始前
 

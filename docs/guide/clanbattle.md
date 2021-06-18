@@ -2,13 +2,18 @@
 next: ./clanbattleoperating
 ---
 # 会战功能
-::: tip 提示
-本页功能仅在<b>会战&实用版、会战版</b>提供。
-:::
 
-::: tip 提示
-如果您是第一次使用此部分功能，推荐先阅读<b>[会战功能操作指导](/guide/clanbattleoperating.html)</b>
-:::
+<a-alert type="info" message="提示" show-icon>
+<template slot="description">
+本页功能仅在<b>会战&实用版、会战版</b>提供。
+</template>
+</a-alert>
+<p></p>
+<a-alert type="info" message="提示" show-icon>
+<template slot="description">
+更多使用上的问题请前往<b><a href="/guide/clanbattleoperating.html">会战功能操作指导</a></b>查看
+</template>
+</a-alert>
 
 ## 出刀管理(聊天端)
 

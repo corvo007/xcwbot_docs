@@ -3,10 +3,12 @@ prev: ./clanbattle
 next: ./entertainment
 ---
 # 实用功能
-::: tip 提示
-本页功能仅在<b>会战&实用版</b>提供，但以下功能除外，也在<b>娱乐版</b>提供：  
+<a-alert type="info" message="提示" show-icon>
+<template slot="description">
+本页功能仅在<b>会战&实用版</b>提供，但以下功能除外，也在<b>娱乐版</b>提供：  <br/>
 <b>竞技场排名变动提醒、竞技场查询、公主连结wiki、其他查询类功能：角色语音试听</b>
-:::
+</template>
+</a-alert>
 
 ## 查询类
 ### 公会排名查询

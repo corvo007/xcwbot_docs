@@ -4,7 +4,6 @@ module.exports = [{
 	collapsable: false,
 	children: [
 		'/shop/whychooseus',
-		'/shop/guide',
-		'/shop/saleactivity'
+		'/shop/guide'
 	]
 }];

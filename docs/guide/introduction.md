@@ -2,8 +2,13 @@
 prev : false
 ---
 # 前言
+<a-alert type="warning" message="提示" show-icon>
+<template slot="description">
+<b>娱乐版（包括终极版中的娱乐版）</b>机器人已经开启托管模式(私人Bot)试运营，请前往<b><a href="/announcement/hosting.html">此处</a></b>查看详情。
+</template>
+</a-alert>
 
-<b>欢迎您使用小仓唯bot！</B>  
+<b>欢迎您使用小仓唯Bot！</B>  
 接下来，本手册将详细介绍本bot的各项功能。<b>  
 本指南下一页链接位于本页面底部右侧，</b>索引位于页面左侧(PC端)或页面左上角(移动端)，搜索框，位于页面右上方。您可以点击左上角logo或文字返回指南首页。   
 如使用中遇到问题，可先查看[常见问题解答](/guide/qa)，如无法解答您的问题，欢迎向维护组咨询！
@@ -43,3 +48,28 @@ prev : false
 
 <b>例如:</b>禁用 AI闲聊 启用 老婆
 
+<!--
+<script>
+export default {
+  methods: {
+    showConfirm() {
+      this.$confirm({
+        title: '娱乐版转型通知',
+        content: h => <b>娱乐版机器人已经全面转向托管模式，此后不再维护之前的机器人，请点击“确定”前往了解详情以及具体操作，点击“取消”留在当前页面。</b>,
+        onOk() {
+          window.location.href="/announcement/hosting.html";
+        },
+        onCancel() {
+        },
+        okText: '确定',
+        cancelText: '取消',
+      });
+    },
+},
+mounted() {
+  if (document.readyState === 'complete') this.showConfirm()
+  else document.addEventListener('load', () => this.showConfirm())
+  },
+}
+</script>
+!-->

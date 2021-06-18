@@ -7,10 +7,6 @@ module.exports = [{
 	path: '/guide/introduction',
 },
 {
-	title: '更新日志',
-	path: '/guide/changelog',
-},
-{
 	title: '会战功能',
 	path: '/guide/clanbattle',
 	children: [

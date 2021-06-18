@@ -16,7 +16,7 @@ next: false
 <b>唯一指定主页 : [https://xcwbot.com](https://xcwbot.com)  </b>  
 
 ## 声明
-本Bot<b>全部</b>宣传文案(包括但不限于[主站](https://xcwbot.com)、[促销活动页](/shop/saleactivity.html)
+本Bot<b>全部</b>宣传文案(包括但不限于[主站](https://xcwbot.com)、[促销活动页](/announcement/saleactivity.html)
 中的)、帮助文档(包括但不限于[本网站](https://doc.xcwbot.com)，[商店页面](https://shop.xcwbot.com/))及<b>部分</b>Bot机上说明文字与[用户协议](/EULA)的<b>一部分</b>版权归小仓唯Bot。<b>未经允许，严禁挪作他用</b>(包括在非本维护组所控制的网页中使用)！  
 
 ## 致谢

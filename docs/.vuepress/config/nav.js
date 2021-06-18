@@ -4,20 +4,20 @@ module.exports = [
     link: '/overview/',
   },
   {
-    text: '使用手册',
+    text: '功能手册',
     link: '/guide/introduction',
+  },
+  {
+    text: '托管指南',
+    link: '/hosting/'
   },
   {
     text: '赞助指南',
     link: '/shop/guide'
   },
   {
-    text: '常见问题',
-    link: '/guide/qa'
-  },
-  {
-    text: '用户协议',
-    link: '/EULA/'
+    text: '通知&公告',
+    link: '/announcement/changelog'
   },
   {
     text: '主页',

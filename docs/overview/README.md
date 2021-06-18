@@ -13,13 +13,16 @@ next : false
 请从这里开始→ [小仓唯Bot宣传主页](https://xcwbot.com)
 ### <a-icon type="shopping" :style="{ fontSize: '25px' }"/> 希望了解赞助与使用的全流程...
 请从这里开始→ [赞助指南](/shop/guide.html)
+
+### <a-icon type="plus-circle" :style="{ fontSize: '25px' }"/> 希望了解托管新模式的详情与操作...  
+请从这里开始→ [托管模式介绍](/announcement/hosting.html)   
+
 ### <a-icon type="info-circle" :style="{ fontSize: '25px' }"/> 是初次使用...
 请仔细阅读[使用指南](/guide/introduction.html)的每一页~
-### <a-icon type="fast-forward" :style="{ fontSize: '25px' }"/>希望快速查阅使用手册...
+### <a-icon type="fast-forward" :style="{ fontSize: '25px' }"/> 希望快速查阅使用手册...
 以下是目录: <p></p> 
 <b>使用指南目录</b>  
-- [前言](/guide/introduction.html)  
-- [更新日志](/guide/changelog.html)    
+- [前言](/guide/introduction.html)    
 - [会战功能](/guide/clanbattle.html)   
 - [实用功能](/guide/tools.html)  
 - [娱乐功能](/guide/entertainment.html)  
@@ -30,4 +33,4 @@ next : false
 如以上无法解答您的问题，欢迎向维护组咨询！
 
 ### <a-icon type="account-book" :style="{ fontSize: '25px' }"/> 想知道现在有没有促销活动...
-请查看[促销活动](/shop/saleactivity.html)~
+请查看[促销活动](/announcement/saleactivity.html)~

@@ -1,6 +1,4 @@
 ---
-prev: ./guide
-next: false
 sidebarDepth: 2
 ---
 # 促销活动

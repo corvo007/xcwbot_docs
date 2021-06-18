@@ -1,5 +1,6 @@
 ---
 prev: ./introduction
+sidebarDepth: 0
 ---
 # 更新日志
 ## 未来更新计划
@@ -8,12 +9,37 @@ prev: ./introduction
 :::
 项目|预计上线日期
 :--|:--|:--
-#查看群友xp|2021.6
-原神信息查询|2021.6
 猜立绘/剧情/语音|2021.6
-更多的小功能|2021.6
 大头菜金融系统扩展|2021.6
 老婆系统扩展|——
+
+## 2021-6-20
+
+<b>史上最重磅、最大更新！</b>
+
+我们计划于2021年6月20日进行功能上的更新以及开展托管模式试运营(I期)，详情如下： 
+
+<b>托管模式试运营公告：[托管模式试运营公告](/announcement/hosting.html)</b>  
+<b>*</b> 托管模式试运营将于<b>6月20日15:00</b>正式开启。
+
+### 【娱乐版】
+- <a-tag color="blue">新增</a-tag><a href="/guide/entertainment.html#arcaea%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF%E6%9F%A5%E8%AF%A2"> Arcaea个人信息查询</a>
+- <a-tag color="blue">新增</a-tag><a href="/guide/entertainment.html#%E5%8E%9F%E7%A5%9E%E7%8E%A9%E5%AE%B6%E4%BF%A1%E6%81%AF%E5%8D%A1%E7%89%87"> 原神个人信息卡片</a>
+- <a-tag color="blue">新增</a-tag><a href="/guide/entertainment.html#%E5%85%B6%E4%BB%96%E5%A8%B1%E4%B9%90%E5%8A%9F%E8%83%BD"> 答案之书</a>
+- <a-tag color="blue">新增</a-tag><a href="/guide/entertainment.html#%E7%9C%8B%E7%9C%8B%E7%BE%A4%E5%8F%8Bxp"> #看看群友xp</a>
+- <a-tag color="blue">新增</a-tag><a href="/guide/entertainment.html#%E5%85%B6%E4%BB%96%E5%A8%B1%E4%B9%90%E5%8A%9F%E8%83%BD"> 今天吃什么</a>
+- <a-tag color="blue">新增</a-tag><a href="/guide/entertainment.html#%E5%8E%9F%E7%A5%9E%E6%9F%A5%E8%AF%A2-%E5%A8%B1%E4%B9%90"> 原神黄历</a>
+- <a-tag color="blue">新增</a-tag><a href="/guide/entertainment.html#%E5%85%B6%E4%BB%96%E5%A8%B1%E4%B9%90%E5%8A%9F%E8%83%BD"> 淫语翻译</a>
+- <a-tag color="blue">新增</a-tag><a href="/guide/entertainment.html#%E5%BC%94%E5%9B%BE%E7%94%9F%E6%88%90%E5%99%A8"> 5000兆元图片生成器</a>
+- <a-tag color="blue">新增</a-tag><a href="/guide/entertainment.html#%E5%BC%94%E5%9B%BE%E7%94%9F%E6%88%90%E5%99%A8"> 高低情商图片生成器</a>
+- <a-tag color="blue">新增</a-tag><a href="/guide/entertainment.html#%E5%BC%94%E5%9B%BE%E7%94%9F%E6%88%90%E5%99%A8"> 鲁迅说图片生成器</a>
+- <a-tag color="blue">新增</a-tag><a href="/guide/entertainment.html#%E5%BC%94%E5%9B%BE%E7%94%9F%E6%88%90%E5%99%A8"> 黑底黄字图片生成器</a>
+- <a-tag color="blue">新增</a-tag><a href="/guide/entertainment.html#%E7%83%AD%E9%97%A8%E6%B5%8B%E8%AF%95"> 热门测试</a>
+- <a-tag color="green">更新</a-tag><a href="/guide/entertainment.html#%E5%85%B6%E4%BB%96%E5%A8%B1%E4%B9%90%E5%8A%9F%E8%83%BD"> 哔哩哔哩小程序&链接解析</a>
+- <a-tag color="green">更新</a-tag><a href="/guide/entertainment.html#%E4%BD%A0%E9%97%AE%E6%88%91%E7%AD%94"> 你问我答</a>
+- <a-tag color="green">更新</a-tag><a href="/guide/entertainment.html#%E8%BF%90%E5%8A%BF-%E6%8A%BD%E7%AD%BE"> 运势(抽签)</a>
+- <a-tag color="green">更新</a-tag><a href="/guide/entertainment.html#%E8%A1%A8%E6%83%85%E5%8C%85%E7%94%9F%E6%88%90%E5%99%A8"> 表情包生成</a>
+
 
 ## 2021-5-26
 

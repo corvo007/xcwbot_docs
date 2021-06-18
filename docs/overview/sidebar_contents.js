@@ -8,12 +8,12 @@ module.exports = [
 	path: '/shop/guide'
 },
 {
-	title: '使用手册',
-	path: '/guide/introduction',
+	title: '托管指南',
+	path: '/hosting/'
 },
 {
-	title: '用户协议(EULA)',
-	path: '/EULA/'
+	title: '功能手册',
+	path: '/guide/introduction',
 },
 {
 	title: '关于',

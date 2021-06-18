@@ -1,11 +1,11 @@
 ---
 prev: ./whychooseus
-next: ./saleactivity
+next: false
 ---
 # 赞助指南
 
 ::: warning 注意
-赞助并使用本服务即代表您同意[《最终用户许可协议》](/EULA)。
+赞助并使用本服务即代表您同意[《赞助用户最终用户许可协议》](/EULA)。
 :::
 
 ## 为什么选择我们?
@@ -14,6 +14,11 @@ next: ./saleactivity
 
 
 ## 赞助流程
+<a-alert type="info" message="提示" show-icon>
+<template slot="description">
+可前往<b><a href="/announcement/saleactivity.html">此处</a></b>确认促销&优惠活动的举办情况和具体优惠。
+</template>
+</a-alert>
 <template>
   <a-steps direction="vertical" :current="4" >
     <a-step v-for='item in vertical_steps' :title='item.title' :subTitle='item.subTitle'>
