@@ -1,5 +1,4 @@
 ---
-prev: ./introduction
 sidebarDepth: 0
 ---
 # 更新日志
