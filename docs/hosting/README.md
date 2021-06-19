@@ -35,12 +35,12 @@
 ## 第一次使用
 ### 开始之前
 
-您需要确保您用于机器人的账号符合以下条件：
+您需要确保您用于托管的机器人的账号符合以下条件：
 
 - 必须<b>绑定手机</b>号，开启了<b>设备锁</b>。且手机号能够<b>正常使用</b>（以便解封时接收验证码）。
 - 必须是干净，<b>自己注册</b>的QQ号，不能是淘宝或者其他渠道<b>购买</b>的。不能有任何<b>财产</b>（比如Q币），或者有其他用途（例如<b>打游戏</b>），或者有<b>私人</b>的聊天记录/好友/群，避免造成损失。
 - 可以有好友之类的，但是最好不要加过很多群，只加了自己需要用机器人的群即可。
-- 必须能够<b>正常登录</b>，且<b>提前</b>在自己手机上登录好（以便自助绑定机器人）。
+- 必须能够<b>正常登录</b>，且<b>提前</b>在自己手机上登录好（以便自助添加托管的机器人）。
 - <b>可以自己修改密码</b>，以应对初期登录时的封号。
 
 此外，您需要负责以下事项：
@@ -57,13 +57,13 @@
     <a-steps direction="vertical" :current="4">
         <a-step title="开始" status="process">
             <template slot="description">
-                向机器人发送“添加机器人”并同意知情声明<br>
+                向<b>托管机器人</b>发送“添加机器人”并同意知情声明<br>
                 <img src="../.vuepress/public/images/hosting/add-binding-bot-1.png" />
             </template>
         </a-step>
         <a-step title="输入信息" status="process">
             <template slot="description">
-                输入您用于机器人的账号<br>
+                输入您要托管为机器人的账号<br>
                 <img src="../.vuepress/public/images/hosting/add-binding-bot-2.png" />
             </template>
         </a-step>
@@ -95,13 +95,13 @@
 <a-alert type="info" message="提示" description="目前每个人最多能绑定2个机器人。" show-icon/>
 
 ### 绑定一个群
-然后您需要为您的机器人绑定几个群，机器人只会响应这些绑定群内的命令，而会忽略其他群的消息。  
+然后您需要为您的机器人绑定几个群，托管的机器人只会响应这些绑定群内的命令，而会忽略其他群的消息。  
 此外，绑定群数的多少关系到每天产生的费用的多少。
 <template>
     <a-steps direction="vertical" :current="4">
         <a-step title="输入信息" status="process">
             <template slot="description">
-                向机器人发送“添加绑定群”并输入您想添加的群号，完成之后输入“结束”（如果您有多个机器人，在此之前会有机器人选择流程）：<br>
+                向<b>托管机器人</b>发送“添加绑定群”并输入您想添加的群号，完成之后输入“结束”（如果您有多个机器人，在此之前会有机器人选择流程）：<br>
                 <img src="../.vuepress/public/images/hosting/add-binding-group-1.png" />
             </template>
         </a-step>
@@ -119,7 +119,7 @@
 ### 开始使用
 以上两步都完成了之后，可以到[功能手册](/guide/introduction)查看详细的使用说明然后就能愉快的使用了~。
 ### 遇到了问题？
-可以尝试先重启机器人（使用“重启机器人”命令），观察问题是否解决。如果没有，请首先阅读[故障排除指南](./problem-solve.md)和[常见问题](./qa.md)，如果还是不能解决您的问题，欢迎直接询问维护组。
+可以尝试先重启机器人（向<b>托管机器人</b>发送“重启机器人”命令），观察问题是否解决。如果没有，请首先阅读[故障排除指南](./problem-solve.md)和[常见问题](./qa.md)，如果还是不能解决您的问题，欢迎直接询问维护组。
 
 <b>此外，在汇报问题之前，请先确认当前机器人是否在线，以免给您带来困扰。</b>
 
@@ -129,13 +129,13 @@
     <a-steps direction="vertical" :current="4">
         <a-step title="确认信息" status="process">
             <template slot="description">
-                向机器人发送“暂停机器人”并同意知情声明（如果您有多个机器人，在此之前会有机器人选择流程）：<br>
+                向<b>托管机器人</b>发送“暂停机器人”并同意知情声明（如果您有多个机器人，在此之前会有机器人选择流程）：<br>
                 <img src="../.vuepress/public/images/hosting/pause-binding-bot-1.png" />
             </template>
         </a-step>
         <a-step title="完成" status="process">
             <template slot="description">
-                如出现下图的提示，则说明已经成功暂停了机器人。<br>
+                如出现下图的提示，则说明已经成功暂停了托管的机器人。<br>
                 <img src="../.vuepress/public/images/hosting/pause-binding-bot-2.png" />
             </template>
         </a-step>
@@ -149,13 +149,13 @@
     <a-steps direction="vertical" :current="4">
         <a-step title="确认信息" status="process">
             <template slot="description">
-                向机器人发送“删除机器人”并同意知情声明（如果您有多个机器人，在此之前会有机器人选择流程）：<br>
+                向<b>托管机器人</b>发送“删除机器人”并同意知情声明（如果您有多个机器人，在此之前会有机器人选择流程）：<br>
                 <img src="../.vuepress/public/images/hosting/delete-binding-bot-1.png" />
             </template>
         </a-step>
         <a-step title="完成" status="process">
             <template slot="description">
-                如出现下图的提示，则说明已经成功删除了机器人。<br>
+                如出现下图的提示，则说明已经成功删除了托管的机器人。<br>
                 <img src="../.vuepress/public/images/hosting/delete-binding-bot-2.png" />
             </template>
         </a-step>
@@ -169,7 +169,7 @@
     <a-steps direction="vertical" :current="4">
         <a-step title="输入信息" status="process">
             <template slot="description">
-                向机器人发送“删除绑定群”并选择需要删除的群（如果您有多个机器人，在此之前会有机器人选择流程）：<br>
+                向<b>托管机器人</b>发送“删除绑定群”并选择需要删除的群（如果您有多个机器人，在此之前会有机器人选择流程）：<br>
                 <img src="../.vuepress/public/images/hosting/delete-binding-group-1.png" />
             </template>
         </a-step>
@@ -189,13 +189,13 @@
     <a-steps direction="vertical" :current="4">
         <a-step title="选择设置项" status="process">
             <template slot="description">
-                向机器人发送“修改机器人设置”并选择需要修改的设置项，此处以“修改/配置机器人密码”为例（如果您机器人经常无法发出消息，可以尝试修改消息发送方式，可能会有缓解）。（如果您有多个机器人，在此之前会有机器人选择流程）<br>
+                向<b>托管机器人</b>发送“修改机器人设置”并选择需要修改的设置项，此处以“修改/配置机器人密码”为例（如果您机器人经常无法发出消息，可以尝试修改消息发送方式，可能会有缓解）。（如果您有多个机器人，在此之前会有机器人选择流程）<br>
                 <img src="../.vuepress/public/images/hosting/change-binding-bot-setting-1.png" />
             </template>
         </a-step>
         <a-step title="修改设置" status="process">
             <template slot="description">
-                输入您机器人的密码（请确认密码正确，否则无法登录）。<br>
+                输入您托管的机器人的账号的密码（请确认密码正确，否则无法登录）。<br>
                 <img src="../.vuepress/public/images/hosting/change-binding-bot-setting-2.png" />
             </template>
         </a-step>
@@ -210,7 +210,7 @@
 
 
 ## 查看机器人的状态
-可以查看您绑定的机器人的概况，使用“我的机器人”指令：  
+如果要查看您添加的机器人的概况，使用“我的机器人”指令：  
 <img src="../.vuepress/public/images/hosting/my-binding-bot-1.png" />  
 如有必要，可以查看指定机器人的详细情况（使用 “机器人详情 账号”指令），用于维护组做故障诊断：  
 <img src="../.vuepress/public/images/hosting/my-binding-bot-details-1.png" /> 
