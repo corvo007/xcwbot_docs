@@ -64,6 +64,7 @@
 
 
 ### 添加第一个机器人
+<b><font color="red">在发送指令之前，请先加机器人为好友。</font></b><br>
 首先需要将您的QQ号提交到平台上托管：
 <template>
     <a-steps direction="vertical" :current="4">
