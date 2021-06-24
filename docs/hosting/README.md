@@ -82,7 +82,7 @@
         </a-step>
         <a-step title="登录" status="process">
             <template slot="description">
-                按提示使用手机QQ扫码，并确认登录，之后耐心等待几分钟确认绑定结果<br>
+                按提示使用手机QQ扫码<b>(不能从相册中扫码，需要使用另外一台设备对着屏幕扫码)</b>，并确认登录，之后耐心等待几分钟确认绑定结果<br>
                 <img src="../.vuepress/public/images/hosting/add-binding-bot-3.png" />
                 <a-alert type="warning" message="提示" show-icon>
                     <template slot="description">
