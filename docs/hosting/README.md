@@ -8,10 +8,9 @@
 </a-alert>
 <p></p>
 <a-alert type="warning" message="提示" show-icon>
-    <template slot="description">
-        目前仅<b>娱乐版（包括终极版中的娱乐版）</b>开启了托管模式试运营，其他版本暂未开启，这些版本续费时依旧按照以前的<a
-            href="/shop/guide.html">“赞助指南”</a>进行，后续安排请关注后续通知与公告。
-    </template>
+<template slot="description">
+目前<b>除会战版外</b>的所有版本<b>(包括会战实用版)</b>皆已开启托管模式试运营，如果您需要一个开箱即用的会战机器人，请照<a href="/shop/guide.html">“赞助指南”</a>赞助并使用。这个机器人只有<b>最基本</b>的功能，若需使用完整功能，请按下方托管机器人。
+</template>
 </a-alert>
 <p></p>
 <a-alert type="info" message="提示" show-icon>
@@ -44,6 +43,10 @@
 秘玛|密码
 ## 第一次使用
 ### 开始之前
+
+推荐<b>首先阅读</b>[你需要了解的一切](/announcement/hosting)以对这一模式有一个初步的了解。
+
+<p></p>
 
 您需要确保您用于托管的机器人的账号符合以下条件：
 

@@ -5,12 +5,12 @@ tagline: 多功能的公主连结Bot
 actionText: 快速上手 →
 actionLink: /overview/
 features:
-- title: 高可用性 
-  details: 采用阿里云北京地域高配置服务器，并使用稳定性极佳的Bot后端，尽力减少计划外停机。
-- title: 高安全性
-  details: 所有站点均使用腾讯云CDN，提升访问速度的同时可以有效阻止恶意访客的破坏。
+- title: 高独立性 
+  details: 一人一号，杜绝共享。您机器人自此再也不会受到和您毫不相识的人的影响。
 - title: 高性价比
-  details: 每月最多只需花一杯多一点的奶茶钱，即可纵享仍在持续更新中的数十项功能。
+  details: 费用完全由您机器人服务的群聊数量决定，按需添删，毫不浪费。
+- title: 高度定制
+  details: 机器人的昵称、头像、签名等个人信息和加入的群聊皆可由您一手把控，让其真正变成只服务于您的私人Bot。
 footer: Copyright © 2020-2021 小仓唯Bot</br>未经许可，严禁挪用本站点的设计、图片或文字
 footerColumn: 2
 footerWrap: 

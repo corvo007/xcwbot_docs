@@ -9,6 +9,12 @@ next: ./clanbattleoperating
 </template>
 </a-alert>
 <p></p>
+<a-alert type="warning" message="提示" show-icon>
+<template slot="description">
+目前<b>除会战版外</b>的所有版本<b>(包括会战实用版)</b>皆已开启托管模式试运营，请前往<b><a href="/announcement/hosting.html">此处</a></b>查看详情。
+</template>
+</a-alert>
+<p></p>
 <a-alert type="info" message="提示" show-icon>
 <template slot="description">
 更多使用上的问题请前往<b><a href="/guide/clanbattleoperating.html">会战功能操作指导</a></b>查看
@@ -16,6 +22,10 @@ next: ./clanbattleoperating
 </a-alert>
 
 ## 出刀管理(聊天端)
+
+::: tip 提示
+若您不需要会战相关功能，可使用“禁用 会战管理”禁用。
+:::
 
 ::: tip 提示
 催刀、查刀等功能请登录网页端使用。

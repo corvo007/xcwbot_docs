@@ -4,12 +4,12 @@ module.exports = [
 	collapsable: false
 },
 {
-	title: '操作指南',
-	path: '/hosting/',
+	title: '你需要了解的一切',
+	path: '/announcement/hosting',
 },
 {
-	title: '故障排除指南',
-	path: '/hosting/problem-solve',
+	title: '操作指南',
+	path: '/hosting/',
 },
 {
 	title: '常见问题',

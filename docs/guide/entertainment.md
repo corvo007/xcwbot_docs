@@ -11,7 +11,7 @@ next: ./qa
 <p></p>
 <a-alert type="warning" message="提示" show-icon>
 <template slot="description">
-<b>娱乐版（包括终极版中的娱乐版）</b>机器人已经开启托管模式(私人Bot)试运营，请前往<b><a href="/announcement/hosting.html">此处</a></b>查看详情。
+目前<b>除会战版外</b>的所有版本<b>(包括会战实用版)</b>皆已开启托管模式试运营，请前往<b><a href="/announcement/hosting.html">此处</a></b>查看详情。
 </template>
 </a-alert>
 
