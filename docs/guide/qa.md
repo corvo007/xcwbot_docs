@@ -57,10 +57,8 @@ sidebarDepth: 0
 
 ### 9. <b>私聊登录没有反应怎么办？</b>  
    解决方法:   
-   请发送`重置密码`，用你的临时密码和qq号从以下地址登录:  
-   会战版:[https://clb1.xcwbot.com/yobot/login/](https://clb1.xcwbot.com/yobot/login/)   
-   会战&实用版/终极版:[https://clb2.xcwbot.com/yobot/login/](https://clb2.xcwbot.com/yobot/login/) 或 [https://clb3.xcwbot.com/yobot/login/](https://clb3.xcwbot.com/yobot/login/)     
+   请发送`重置密码`，用你的临时密码和qq号而不是登录链接登录会战系统。     
 
 ### 10.<b>群内报刀没有回复怎么办？</b> 
    解决方法：  
-   这是一种故障，请先联系我反馈。这种情况一般是腾讯的风控导致的，即能接受消息，但不能发送消息。但不必惊慌，报刀数据是可以正常记录的，但不会给出回应，您可以登录网页端查看数据。我们将会在恢复正常之后发放故障补偿。
+   这是一种故障，请先联系号主反馈。这种情况一般是腾讯的风控导致的，即能接受消息，但不能发送消息。但不必惊慌，报刀数据是可以正常记录的，但不会给出回应，您可以登录网页端查看数据。

@@ -87,19 +87,14 @@
             <template slot="description">
                 按提示使用手机QQ扫码<b>(不能从相册中扫码，需要使用另外一台设备对着屏幕扫码)</b>，并确认登录，之后耐心等待几分钟确认绑定结果<br>
                 <img src="../.vuepress/public/images/hosting/add-binding-bot-3.png" />
-                <a-alert type="warning" message="提示" show-icon>
+                <a-alert type="warning" message="遇到了问题？" show-icon>
                     <template slot="description">
-                        如出现二维码获取失败（如下图），可以多试几次，如果反复失败，
+                        <ul>1.由于部分账号登录比较慢或者登录时出现一些可以忽略的错误，导致无法检测到在线的状态。因此，可以用以下的方法来检查您的机器人是否就绪：<br>
+                        <b>私聊向机器人发送“小仓唯在？”，获得回复即证明已经就绪。</b></ul>
+                        <ul>2.如出现二维码获取失败（如下图），可以多试几次，如果反复失败，
                         可以等几个小时之后使用<b>“重启机器人”</b>命令尝试重新登录。如果每次都失败，可能是被拉入了黑名单，
                         此时可以先使用<b>“删除机器人”</b>删除旧的账号，然后更换个账号再尝试。<br>
-                        <img src="../.vuepress/public/images/hosting/add-binding-bot-error-1.png" />
-                    </template>
-                </a-alert>
-                <p></p>
-                <a-alert type="warning" message="提示" show-icon>
-                    <template slot="description">
-                        由于部分账号登录比较慢或者登录时出现一些可以忽略的错误，导致无法检测到在线的状态。因此，可以用以下的方法来检查您的机器人是否就绪：
-                        <b>私聊向机器人发送“小仓唯在？”，获得回复即证明已经就绪。</b>
+                        <img src="../.vuepress/public/images/hosting/add-binding-bot-error-1.png" /></ul>
                     </template>
                 </a-alert>
             </template>
@@ -108,6 +103,11 @@
             <template slot="description">
                 如出现下图的提示，则说明已经添加成功，可以进行下一步了<br>
                 <img src="../.vuepress/public/images/hosting/add-binding-bot-4.png" />
+                <a-alert type="warning" message="遇到了问题？" show-icon>
+                    <template slot="description">
+                        如果等待了超过10分钟都没有出现提示（无论失败还是成功），则可能是提示消息因故未能发出，请重新进行添加/重启流程。
+                    </template>
+                </a-alert>
             </template>
         </a-step>
     </a-steps>
@@ -132,6 +132,11 @@
             <template slot="description">
                 如出现下图的提示，则说明已经成功添加了绑定群，可以愉快的进行玩耍了~<br>
                 <img src="../.vuepress/public/images/hosting/add-binding-group-2.png" />
+                <a-alert type="warning" message="遇到了问题？" show-icon>
+                    <template slot="description">
+                        如果等待了超过1分钟都没有出现提示（无论失败还是成功），则可能是提示消息因故未能发出，请重新进行添加流程。
+                    </template>
+                </a-alert>
             </template>
         </a-step>
     </a-steps>
@@ -140,14 +145,16 @@
 <a-alert type="info" message="提示" description="目前每个机器人最多能绑定5个群。" show-icon/>
 
 ### 开始使用
-以上两步都完成了之后，可以到[功能手册](/guide/introduction)查看详细的使用说明然后就能愉快的使用了~。
-<a-alert type="warning" message="提示" show-icon>
-                    <template slot="description">
-                        请一定阅读<a href="/announcement/hosting.html#%E5%85%B3%E4%BA%8E%E8%B4%A6%E5%8F%B7%E7%9A%84%E9%97%AE%E9%A2%98">“关于托管之后账号的异常情况说明”</a>。
-                    </template>
-                </a-alert>
+以上两步都完成了之后，可以到[功能手册](/guide/introduction)查看详细的使用说明然后就能愉快的使用了~
+
 ### 遇到了问题？
-可以尝试先重启机器人（向<b>托管机器人</b>发送“重启机器人”命令），观察问题是否解决。如果没有，请首先阅读[常见问题](./qa.md)，如果还是不能解决您的问题，欢迎直接询问维护组。
+
+对于<b>刚刚进行了托管</b>的账号，请参考<a href="/announcement/hosting.html#%E5%85%B3%E4%BA%8E%E8%B4%A6%E5%8F%B7%E7%9A%84%E9%97%AE%E9%A2%98">“关于托管之后账号的异常情况说明”</a>。
+
+如果<b>几天之后</b>还是处于只能回复私聊消息不能回复群聊消息的状态的话，首先确认目标有没有处在绑定群中，其次可以尝试重启机器人。
+如果问题仍然存在，请联系维护组排查。
+
+对于<b>其他的问题</b>，可以尝试先重启机器人（向<b>托管机器人</b>发送“重启机器人”命令），观察问题是否解决。如果没有，请阅读[常见问题](./qa.md)尝试自行解决，如果还是不能解决您的问题，欢迎直接询问维护组。
 
 <b>此外，在汇报问题之前，请先确认当前机器人是否在线，以免给您带来困扰。</b>
 
@@ -165,6 +172,11 @@
             <template slot="description">
                 如出现下图的提示，则说明已经成功暂停了托管的机器人。<br>
                 <img src="../.vuepress/public/images/hosting/pause-binding-bot-2.png" />
+                <a-alert type="warning" message="遇到了问题？" show-icon>
+                    <template slot="description">
+                        如果等待了超过1分钟都没有出现提示（无论失败还是成功），则可能是提示消息因故未能发出，请重新进行流程。
+                    </template>
+                </a-alert>
             </template>
         </a-step>
     </a-steps>
@@ -185,6 +197,11 @@
             <template slot="description">
                 如出现下图的提示，则说明已经成功删除了托管的机器人。<br>
                 <img src="../.vuepress/public/images/hosting/delete-binding-bot-2.png" />
+                <a-alert type="warning" message="遇到了问题？" show-icon>
+                    <template slot="description">
+                        如果等待了超过1分钟都没有出现提示（无论失败还是成功），则可能是提示消息因故未能发出，请重新进行流程。
+                    </template>
+                </a-alert>
             </template>
         </a-step>
     </a-steps>
@@ -205,6 +222,11 @@
             <template slot="description">
                 同意知情声明，如出现下图的提示，则说明已经成功删除了绑定群。<br>
                 <img src="../.vuepress/public/images/hosting/delete-binding-group-2.png" />
+                <a-alert type="warning" message="遇到了问题？" show-icon>
+                    <template slot="description">
+                        如果等待了超过1分钟都没有出现提示（无论失败还是成功），则可能是提示消息因故未能发出，请重新进行流程。
+                    </template>
+                </a-alert>
             </template>
         </a-step>
     </a-steps>
@@ -231,6 +253,11 @@
             <template slot="description">
                 如出现下图的提示，则说明已经成功修改了机器人的设置。<br>
                 <img src="../.vuepress/public/images/hosting/change-binding-bot-setting-3.png" />
+                <a-alert type="warning" message="遇到了问题？" show-icon>
+                    <template slot="description">
+                        如果等待了超过1分钟都没有出现提示（无论失败还是成功），则可能是提示消息因故未能发出，请重新进行流程。
+                    </template>
+                </a-alert>
             </template>
         </a-step>
     </a-steps>

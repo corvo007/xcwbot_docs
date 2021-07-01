@@ -3,12 +3,7 @@ prev: ./tools
 next: ./qa
 ---
 # 娱乐功能
-<a-alert type="info" message="提示" show-icon>
-<template slot="description">
-本页功能仅在<b>娱乐版</b>提供。
-</template>
-</a-alert>
-<p></p>
+
 <a-alert type="warning" message="提示" show-icon>
 <template slot="description">
 目前<b>除会战版外</b>的所有版本<b>(包括会战实用版)</b>皆已开启托管模式试运营，请前往<b><a href="/announcement/hosting.html">此处</a></b>查看详情。
@@ -515,7 +510,7 @@ xp排行榜|看看大伙喜欢啥(<s>白毛</s>)
 ## 大头菜市场<Badge text="花费金币" type="warning"/><Badge text="获得金币" type="tip"/>
 <b>相关服务:大头菜市场</b>
 ::: danger 风险提示
-<b>大头菜交易可能获得比较高的收益，但也存在比较大的风险，请您根据自身的风险承受能力，审慎作出决定。建议在购买前填写[个人投资者风险承受能力评估问卷](https://www.sac.net.cn/tzzyd/fzgj/201205/t20120503_15058.html)了解自身对于风险的承受能力。如果分类为积极型、相对积极型或以下的，不建议进行大头菜交易。</b>
+<b>大头菜交易可能获得比较高的收益，但也存在比较大的风险，请您根据自身的风险承受能力，审慎作出交易决定。</b>
 :::
 <template>
    <div>

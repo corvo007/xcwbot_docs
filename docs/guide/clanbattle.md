@@ -3,12 +3,6 @@ next: ./clanbattleoperating
 ---
 # 会战功能
 
-<a-alert type="info" message="提示" show-icon>
-<template slot="description">
-本页功能仅在<b>会战&实用版、会战版</b>提供。
-</template>
-</a-alert>
-<p></p>
 <a-alert type="warning" message="提示" show-icon>
 <template slot="description">
 目前<b>除会战版外</b>的所有版本<b>(包括会战实用版)</b>皆已开启托管模式试运营，请前往<b><a href="/announcement/hosting.html">此处</a></b>查看详情。
