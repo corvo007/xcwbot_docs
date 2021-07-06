@@ -733,6 +733,11 @@ xp排行榜|看看大伙喜欢啥(<s>白毛</s>)
                         <td style="text-align: left;">淦翻译 你要翻译的内容</td>
                         <td style="text-align: left;"><b>相关服务:淫语翻译</b></td>
                      </tr>
+                     <tr>
+                        <td style="text-align: left;">高低情商图片生成器</td>
+                        <td style="text-align: left;">高情商 内容 低情商 内容</td>
+                        <td style="text-align: left;"><b>相关服务:高情商</b></td>
+                     </tr>
                   </tbody>
                </table>
             </a-collapse-panel>
