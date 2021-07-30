@@ -5,7 +5,8 @@ next: ./clanbattleoperating
 
 <a-alert type="warning" message="提示" show-icon>
 <template slot="description">
-目前<b>除会战版外</b>的所有版本<b>(包括会战实用版)</b>皆已开启托管模式试运营，请前往<b><a href="/announcement/hosting.html">此处</a></b>查看详情。
+目前<b>除会战版外</b>的所有版本<b>(包括会战实用版)</b>皆已全面转为托管模式，如果您需要一个开箱即用的会战机器人，请照<a
+            href="/shop/guide.html">“赞助指南”</a>赞助并使用。这个机器人只有<b>最基本</b>的功能，若需使用完整功能，请<a href="/announcement/hosting.html">托管机器人</a>。
 </template>
 </a-alert>
 <p></p>

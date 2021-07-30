@@ -4,7 +4,7 @@ module.exports = [
 	collapsable: false
 },
 {
-	title: '你需要了解的一切',
+	title: '简介',
 	path: '/announcement/hosting',
 },
 {
