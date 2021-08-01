@@ -45,10 +45,14 @@
 ## 操作指南
 
 ### 充值云点
-首先点击下方按钮前往商店赞助获得卡密：  
+首先赞助获得卡密：   
+如需使用<b>支付宝</b>，请点击下方按钮进入商店：   
 <a-button type="primary">
     <a href="http://shop.xcwbot.com" target="_blank">打开商店页面</a>
 </a-button>
+
+如需使用<b>微信</b>，请使用微信扫描下方二维码进入微店<b>（不要忘了确认收货！）</b>：  
+<img src="../.vuepress/public/images/hosting/shop_qrcode.png"></img>  
 
 然后私聊托管机器人发送“充值”，按提示操作即可。
 
@@ -56,28 +60,28 @@
 
 <p>如下图所示：</p>
 
-<img src="../.vuepress/public/images/hosting/register-code.png" />
+<img src="../.vuepress/public/images/hosting/register-code.png" ></img> 
 
 ### 查询余额
 私聊托管机器人 或者 在有托管机器人的群中发送 “我的余额”，即可得知当前余额，每日消费和预计能使用的天数。
 
 <p>如下图所示：</p>
 
-<img src="../.vuepress/public/images/hosting/my-balance.png" />
+<img src="../.vuepress/public/images/hosting/my-balance.png" ></img> 
 
 ### 查询消费详情
 私聊托管机器人 或者 在有托管机器人的群中发送 “我的消费”，可以查看具体的扣费项。  
 
 <p>如下图所示：</p>
 
-<img src="../.vuepress/public/images/hosting/my-charge-detail.png" />
+<img src="../.vuepress/public/images/hosting/my-charge-detail.png" ></img> 
 
 ### 查询扣费记录
 私聊托管机器人 或者 在有托管机器人的群中发送 “我的账单”，可以查看详细的消费和充值记录。
 
 <p>如下图所示：</p>
 
-<img src="../.vuepress/public/images/hosting/my-bill.png" />
+<img src="../.vuepress/public/images/hosting/my-bill.png" ></img> 
 
 
 
