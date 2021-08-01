@@ -58,6 +58,8 @@
   <a-checkbox><b><font size=4>我已确认用作托管模式的账号满足“托管模式账号需满足的条件”。</font></b></a-checkbox><br>
   <a-checkbox><b><font size=4>我已阅读并了解“我需要负责的内容”</font></b></a-checkbox><br>
   <a-checkbox><b><font size=4>我已阅读并了解“什么是托管机器人？”</font></b></a-checkbox><br>
+  <a-checkbox><b><font size=4>我已阅读并同意[托管机器人费用说明](/hosting/fee)</font></b></a-checkbox><br>
+  <a-checkbox><b><font size=4>我理解托管初期由于外部不可抗力原因，机器人可能会被冻结或一段时间内无法回复群消息</font></b></a-checkbox><br>
 </template>
 
 ### 添加第一个机器人
