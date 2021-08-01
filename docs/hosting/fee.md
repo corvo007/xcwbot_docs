@@ -54,13 +54,9 @@
 如需使用<b>微信</b>，请使用微信扫描下方二维码进入微店<b>（不要忘了确认收货！）</b>：  
 <img src="../.vuepress/public/images/hosting/shop_qrcode.png"></img>  
 
-然后私聊托管机器人发送“充值”，按提示操作即可。
+然后私聊托管机器人发送“激活卡密”，按提示操作即可。
 
 <a-button type="primary" @click="info">什么是托管机器人？</a-button>
-
-<p>如下图所示：</p>
-
-<img src="../.vuepress/public/images/hosting/register-code.png" ></img> 
 
 ### 查询余额
 私聊托管机器人 或者 在有托管机器人的群中发送 “我的余额”，即可得知当前余额，每日消费和预计能使用的天数。
