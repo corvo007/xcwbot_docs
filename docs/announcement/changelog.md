@@ -8,9 +8,19 @@ sidebarDepth: 0
 :::
 项目|预计上线日期
 :--|:--|:--
-猜立绘/剧情/语音|2021.6
-大头菜金融系统扩展|2021.6
-老婆系统扩展|——
+猜立绘/剧情/语音|2021 Autumn
+大头菜金融系统扩展|2021 Autumn
+
+## 2021-8-12
+- <a-tag color="blue">新增</a-tag> 塔罗牌
+- <a-tag color="blue">新增</a-tag> 原神语音播放
+- <a-tag color="blue">新增</a-tag> 彩蛋小功能
+- <a-tag color="green">更新</a-tag> 原神个人信息
+- <a-tag color="green">更新</a-tag> 原神抽卡
+- <a-tag color="green">更新</a-tag> PCRwiki
+- <a-tag color="green">更新</a-tag> 识图搜番
+- <a-tag color="red">移除</a-tag> Arcaea个人信息查询
+- <a-tag color="red">移除</a-tag> AI闲聊
 
 ## 2021-8-2
 - 会战管理改为图片化输出，以提供更稳定的服务
