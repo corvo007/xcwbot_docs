@@ -13,7 +13,9 @@ sidebarDepth: 0
 
 ## 2021-8-12
 - <a-tag color="blue">新增</a-tag> 塔罗牌
-- <a-tag color="blue">新增</a-tag> 原神语音播放
+- <a-tag color="blue">新增</a-tag> 原神语音播放&猜语音
+- <a-tag color="blue">新增</a-tag> 原神深渊查询
+- <a-tag color="blue">新增</a-tag> 原神公告查询
 - <a-tag color="blue">新增</a-tag> 彩蛋小功能
 - <a-tag color="green">更新</a-tag> 原神个人信息
 - <a-tag color="green">更新</a-tag> 原神抽卡
