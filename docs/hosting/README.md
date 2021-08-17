@@ -72,6 +72,11 @@
 首先需要将您的QQ号提交到平台上托管：
 <template>
     <a-steps direction="vertical" :current="4">
+        <a-step title="获取云点" status="process">
+            <template slot="description">
+                <b>如果您是第一次添加机器人，请查看<a href="/hosting/fee.html#%E5%85%85%E5%80%BC%E4%BA%91%E7%82%B9">如何获取云点？</a>获得云点卡密并激活后再继续。</b>
+            </template>
+        </a-step>
         <a-step title="开始" status="process">
             <template slot="description">
                 向<b>托管机器人</b>发送“添加机器人”并同意知情声明<br>
