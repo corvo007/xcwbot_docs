@@ -270,14 +270,14 @@
     </a-steps>
 </template>
 
-## 更改机器人的设置(密码等)
+## 更改机器人的设置
 <a-alert type="warning" message="提示" description="为保护您的账号安全，此部分操作只能 私聊任何托管机器人进行（请不要私聊被冻结/离线的机器人）。" show-icon />
 <b>如果您刚刚更改了密码，或者您刚刚添加了一个新的机器人，请按照下述步骤补充您机器人账号的密码。</b>
 <template>
     <a-steps direction="vertical" :current="4">
         <a-step title="选择设置项" status="process">
             <template slot="description">
-                向<b>托管机器人</b>发送“修改机器人设置”并选择需要修改的设置项，此处以“修改/配置机器人密码”为例（如果您机器人经常无法发出消息，可以尝试修改消息发送方式，可能会有缓解）。（如果您有多个机器人，在此之前会有机器人选择流程）<br>
+                向<b>托管机器人</b>发送“修改机器人设置”并选择需要修改的设置项，此处以“修改/配置机器人密码”为例。（如果您有多个机器人，在此之前会有机器人选择流程）<br>
                 <img src="../.vuepress/public/images/hosting/change-binding-bot-setting-1.png" />
             </template>
         </a-step>

@@ -11,6 +11,11 @@ sidebarDepth: 0
 猜立绘/剧情/语音|2021 Autumn
 大头菜金融系统扩展|2021 Autumn
 
+## 2021-8-24
+- <a-tag color="green">更新</a-tag> 竞技场排名订阅每群增至15个
+- <a-tag color="blue">新增</a-tag> 增强消息发送模式，用于缓解风控（见<a href="/hosting/#%E6%9B%B4%E6%94%B9%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%9A%84%E8%AE%BE%E7%BD%AE-%E5%AF%86%E7%A0%81%E7%AD%89">“更改机器人的设置”</a>） 
+- <a-tag color="blue">新增</a-tag> 图片化会战管理，用于缓解风控（见<a href="/hosting/#%E6%9B%B4%E6%94%B9%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%9A%84%E8%AE%BE%E7%BD%AE-%E5%AF%86%E7%A0%81%E7%AD%89">“更改机器人的设置”</a>） 
+
 ## 2021-8-12
 - <a-tag color="blue">新增</a-tag> 塔罗牌
 - <a-tag color="blue">新增</a-tag> 原神语音播放&猜语音
