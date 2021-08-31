@@ -13,7 +13,7 @@ next : false
 请从这里开始→ [小仓唯Bot宣传主页](https://xcwbot.com)
 
 ### <a-icon type="shopping" :style="{ fontSize: '25px' }"/> 希望了解赞助与使用的全流程...  
-如果需要娱乐和会战功能，请从这里开始→ [托管模式介绍](/announcement/hosting.html)  
+如果需要娱乐和会战功能，请从这里开始→ [托管模式简介](/hosting/introduction.html)  
 如果只需要纯粹的会战功能，请从这里开始→ [赞助指南](/shop/guide.html) 
 ### <a-icon type="info-circle" :style="{ fontSize: '25px' }"/> 是初次使用...
 请仔细阅读[使用指南](/guide/introduction.html)的每一页~

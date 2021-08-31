@@ -9,7 +9,7 @@ module.exports = [
   },
   {
     text: '托管指南',
-    link: '/hosting/'
+    link: '/hosting/introduction'
   },
   {
     text: '赞助指南',

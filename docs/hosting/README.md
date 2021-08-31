@@ -1,11 +1,4 @@
-# 托管模式操作指南
-<p></p>
-<a-alert type="warning" message="提示" show-icon>
-    <template slot="description">
-        目前<b>除会战版外</b>的所有版本<b>(包括会战实用版)</b>皆已全面转为托管模式，如果您需要一个开箱即用的会战机器人，请照<a
-            href="/shop/guide.html">“赞助指南”</a>赞助并使用。这个机器人只有<b>最基本</b>的功能，若需使用完整功能，请按下方托管机器人。
-    </template>
-</a-alert>
+# 使用指南
 <p></p>
 <a-alert type="info" message="提示" show-icon>
     <template slot="description">
@@ -53,7 +46,7 @@
 
 <b><font size=4>请确认：</font></b>  
 <template>
-  <a-checkbox><b><font size=4>我已阅读[托管模式简介](/announcement/hosting)并对这一模式有了一个初步的了解。</font></b></a-checkbox><br>
+  <a-checkbox><b><font size=4>我已阅读[托管模式简介](/hosting/introduction)并对这一模式有了一个初步的了解。</font></b></a-checkbox><br>
   <a-checkbox><b><font size=4>我已阅读“术语表”理解了这些字的本意。</font></b></a-checkbox><br>
   <a-checkbox><b><font size=4>我已确认用作托管模式的账号满足“托管模式账号需满足的条件”。</font></b></a-checkbox><br>
   <a-checkbox><b><font size=4>我已阅读并了解“我需要负责的内容”</font></b></a-checkbox><br>
@@ -174,7 +167,7 @@
 ### 遇到了问题？
 
 对于<b>刚刚进行了托管</b>的账号，请参考<a
-    href="/announcement/hosting.html#%E5%85%B3%E4%BA%8E%E8%B4%A6%E5%8F%B7%E7%9A%84%E9%97%AE%E9%A2%98">“关于托管之后账号的异常情况说明”</a>。  
+    href="/hosting/introduction.html#%E5%85%B3%E4%BA%8E%E8%B4%A6%E5%8F%B7%E7%9A%84%E9%97%AE%E9%A2%98">“关于托管之后账号的异常情况说明”</a>。  
 
 如果<b>几天之后</b>还是处于只能回复私聊消息不能回复群聊消息的状态的话，请参考[常见问题](./qa.md)尝试自行排查。  
 

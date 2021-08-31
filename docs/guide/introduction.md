@@ -5,7 +5,7 @@ prev : false
 <a-alert type="warning" message="提示" show-icon>
 <template slot="description">
 目前<b>除会战版外</b>的所有版本<b>(包括会战实用版)</b>皆已全面转为托管模式，如果您需要一个开箱即用的会战机器人，请照<a
-            href="/shop/guide.html">“赞助指南”</a>赞助并使用。这个机器人只有<b>最基本</b>的功能，若需使用完整功能，请<a href="/announcement/hosting.html">托管机器人</a>。
+            href="/shop/guide.html">“赞助指南”</a>赞助并使用。这个机器人只有<b>最基本</b>的功能，若需使用完整功能，请<a href="/hosting/introduction.html">托管机器人</a>。
 </template>
 </a-alert>
 
@@ -59,7 +59,7 @@ export default {
         title: '娱乐版&会战实用版转型通知',
         content: h => <b>除会战版以外的所有机器人已经全面转向托管模式，此后不再维护之前的机器人，请点击“确定”前往了解详情以及具体操作，点击“取消”留在当前页面。</b>,
         onOk() {
-          window.location.href="/announcement/hosting.html";
+          window.location.href="/hosting/introduction.html";
         },
         onCancel() {
         },

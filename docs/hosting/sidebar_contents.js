@@ -5,10 +5,10 @@ module.exports = [
 },
 {
 	title: '简介',
-	path: '/announcement/hosting',
+	path: '/hosting/introduction',
 },
 {
-	title: '操作指南',
+	title: '使用指南',
 	path: '/hosting/',
 },
 {

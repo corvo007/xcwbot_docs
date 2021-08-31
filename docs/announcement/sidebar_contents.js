@@ -10,9 +10,5 @@ module.exports = [
 {
 	title: '促销活动',
 	path: '/announcement/saleactivity',
-},
-{
-	title: '托管模式',
-	path: '/announcement/hosting',
-},
+}
 ];
