@@ -11,6 +11,9 @@ sidebarDepth: 0
 猜立绘/剧情/语音|2021 Autumn
 大头菜金融系统扩展|2021 Autumn
 
+## 2021-9-2
+- <a-tag color="blue">新增</a-tag> 出刀数统计
+
 ## 2021-8-24
 - <a-tag color="green">更新</a-tag> 竞技场排名订阅每群增至15个
 - <a-tag color="green">更新</a-tag> 卡面&出场动画查询
