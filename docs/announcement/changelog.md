@@ -62,7 +62,7 @@ sidebarDepth: 0
 ### 【娱乐版】
 - <a-tag color="blue">新增</a-tag><a href="/guide/entertainment.html#arcaea%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF%E6%9F%A5%E8%AF%A2"> Arcaea个人信息查询</a>
 - <a-tag color="blue">新增</a-tag><a href="/guide/entertainment.html#%E5%8E%9F%E7%A5%9E%E7%8E%A9%E5%AE%B6%E4%BF%A1%E6%81%AF%E5%8D%A1%E7%89%87"> 原神个人信息卡片</a>
-- <a-tag color="blue">新增</a-tag><a href="/guide/entertainment.html#%E5%85%B6%E4%BB%96%E5%A8%B1%E4%B9%90%E5%8A%9F%E8%83%BD"> 答案之书</a>
+- <a-tag color="blue">新增</a-tag><a href="/guide/entertainment.html#%E5%85%B6%E4%BB%96%E5%A8%B1%E4%B9%90%E5%8A%9F%E8%83%BD"> 答案书</a>
 - <a-tag color="blue">新增</a-tag><a href="/guide/entertainment.html#%E7%9C%8B%E7%9C%8B%E7%BE%A4%E5%8F%8Bxp"> #看看群友xp</a>
 - <a-tag color="blue">新增</a-tag><a href="/guide/entertainment.html#%E5%85%B6%E4%BB%96%E5%A8%B1%E4%B9%90%E5%8A%9F%E8%83%BD"> 今天吃什么</a>
 - <a-tag color="blue">新增</a-tag><a href="/guide/entertainment.html#%E5%8E%9F%E7%A5%9E%E6%9F%A5%E8%AF%A2-%E5%A8%B1%E4%B9%90"> 原神黄历</a>

@@ -720,9 +720,9 @@ ys#  | 查询用户上一次查询的UID信息
                         <td style="text-align: left;"><b>相关服务:有内鬼</b></td>
                      </tr>
                      <tr>
-                        <td style="text-align: left;">答案之书</td>
+                        <td style="text-align: left;">答案书</td>
                         <td style="text-align: left;">问题 翻看答案</td>
-                        <td style="text-align: left;"><b>相关服务:答案之书</b></td>
+                        <td style="text-align: left;"><b>相关服务:答案书</b></td>
                      </tr>
                      <tr>
                         <td style="text-align: left;">今天吃什么</td>
