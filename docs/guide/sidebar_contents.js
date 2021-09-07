@@ -16,11 +16,7 @@ module.exports = [{
 },
 {
 	title: '实用功能',
-	path: '/guide/tools',
-	children: [
-		['/guide/tools', '功能介绍'],
-		['/guide/boxcollemanual', 'Box统计指南']
-	]
+	path: '/guide/tools'
 },
 {
 	title: '娱乐功能',
