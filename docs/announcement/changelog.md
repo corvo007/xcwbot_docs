@@ -11,6 +11,9 @@ sidebarDepth: 0
 猜立绘/剧情/语音|2021 Autumn
 大头菜金融系统扩展|2021 Autumn
 
+## 2021-9-10
+- <a-tag color="green">更新</a-tag> 原神个人信息
+
 ## 2021-9-7
 - <a-tag color="red">移除</a-tag> Box统计  
 
