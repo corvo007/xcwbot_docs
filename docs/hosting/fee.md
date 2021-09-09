@@ -46,15 +46,16 @@
 
 ### 充值云点
 首先赞助获得卡密：   
-如需使用<b>支付宝</b>，请点击下方按钮进入商店：   
-<a-button type="primary">
-    <a href="http://shop.xcwbot.com" target="_blank">打开商店页面</a>
-</a-button>
 
-如需使用<b>微信</b>，请使用微信扫描下方二维码进入微店<b>（不要忘了确认收货！）</b>：  
-<img src="../.vuepress/public/images/hosting/shop_qrcode.png"></img>  
+如您使用<b>支付宝</b>，请使用支付宝扫描下方二维码进入微店赞助（收货地址可随意填写，无需真实地址）：   
 
-然后私聊托管机器人发送“激活卡密”，按提示操作即可。
+<img src="../.vuepress/public/images/hosting/shop_web.png"></img>  
+
+如您使用<b>微信</b>，请使用微信扫描下方小程序二维码进入微店小程序：  
+<img src="../.vuepress/public/images/hosting/shop_quickapp.png"></img>  
+
+赞助获得卡密后私聊托管机器人发送“激活卡密”，按提示操作即可激活卡密。  
+后续添加机器人等请参考<b><a href="/hosting">托管操作指南</a></b>。
 
 <a-button type="primary" @click="info">什么是托管机器人？</a-button>
 

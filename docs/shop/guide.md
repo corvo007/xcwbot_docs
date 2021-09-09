@@ -40,49 +40,11 @@ next: false
         </a-tabs>
       </div>
         <div v-show="item.id===1">
-          <a-tabs default-active-key="1" :size="size" @change="callback">
-            <a-tab-pane key="1" tab="自助赞助">
-              <a-alert type="info" show-icon >
-              <template slot="message">商店目前支持以下支付方式：<a-icon type="alipay" :style="{ fontSize: '20px' }"/> </br>如果您希望使用 <a-icon type="wechat" :style="{ fontSize: '20px' }" /> <a-icon type="qq" :style="{ fontSize: '20px' }" /> 进行赞助或您身处境外，请转到“联系维护组赞助”。</template>
-              </a-alert>
-              <p>决定了赞助的机器人的类型之后，就请点击下方按钮打开商店页面，然后按流程完成赞助。若下方图片过小，您可以点击图片来放大。</p>
-              <a-button type="primary">
-                <a href="http://shop.xcwbot.com" target="_blank">打开商店页面</a>
-              </a-button>
-              <template>
-                <div>
-                  <a-steps :current="current_shop" @change="onChange_shop">
-                    <a-step v-for="item in steps_shop" :key="item.title" :title="item.title" :description="item.description" />
-                  </a-steps>
-                  <div class="steps-content">
-                    <p v-html="steps_shop[current_shop].content"></p>
-                    <img :src="steps_shop[current_shop].image" :height="steps_shop[current_shop].image_height"/>
-                  </div>
-                  <div class="steps-action">
-                    <a-button v-if="current_shop < steps_shop.length - 1" type="primary" @click="next_shop">
-                      下一步
-                    </a-button>
-                    <a-button v-if="current_shop == steps_shop.length - 1" type="primary">
-                      结束
-                    </a-button>
-                    <a-button v-if="current_shop > 0" style="margin-left: 8px" @click="prev_shop">
-                      上一步
-                    </a-button>
-                  </div>
-                </div>
-              </template>
-            </a-tab-pane>
-            <a-tab-pane key="2" tab="联系维护组赞助" force-render>
-              <a-alert type="info" show-icon>
-                <template slot="message">如您联系维护组进行赞助，可使用以下支付方式：
-                  <a-icon type="alipay" :style="{ fontSize: '20px' }" />  <a-icon type="wechat" :style="{ fontSize: '20px' }" /> <a-icon type="qq" :style="{ fontSize: '20px' }" />
-                </template>
-              </a-alert>
-              首先，请点击下方按钮<b>联系维护组</b>。<br><a-button type="primary">
-                <a href="/about/#%E8%81%94%E7%B3%BB%E6%88%91%E4%BB%AC" target="_blank">联系维护组</a>
-              </a-button><br>然后，您只需要向维护组提供您需要赞助的<b>版本</b>和<b>时长</b>以及想使用的<b>支付方式</b>。<br>之后，维护组便会返回一张支付二维码。<br><b>支付后</b>，您会同自助赞助一样得到一个<b>卡密</b>，请照下个步骤进行激活。
-            </a-tab-pane>
-          </a-tabs>
+          如您使用<b>支付宝</b>，请使用支付宝扫描下方二维码进入微店赞助（收货地址可随意填写，无需真实地址）：<br>
+          <img src="../.vuepress/public/images/hosting/shop_web.png"></img><br>
+          如您使用<b>微信</b>，请使用微信扫描下方小程序二维码进入微店小程序：<br>
+          <img src="../.vuepress/public/images/hosting/shop_quickapp.png"></img><br>
+          赞助完成获得卡密后请按后续步骤激活。
         </div>
         <div v-show="item.id===2">
           <a-steps :current="current" @change="onChange">
@@ -289,7 +251,7 @@ export default {
               id:1,
               title:'完成赞助并获得卡密',
               icon:'money-collect',
-              subTitle:'自助赞助或联系维护组赞助'
+              subTitle:'自助赞助'
           },
           {
               id:2,
