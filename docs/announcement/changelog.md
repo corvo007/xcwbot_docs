@@ -13,6 +13,7 @@ sidebarDepth: 0
 
 ## 2021-9-10
 - <a-tag color="green">更新</a-tag> 原神个人信息
+- <a-tag color="cyan">运营</a-tag> 合并赞助渠道
 
 ## 2021-9-7
 - <a-tag color="red">移除</a-tag> Box统计  
