@@ -11,6 +11,14 @@ sidebarDepth: 0
 猜立绘/剧情/语音|2021 Autumn
 大头菜金融系统扩展|2021 Autumn
 
+## 2021-9-11
+- <a-tag color="blue">新增</a-tag> PCR大乱斗
+- <a-tag color="blue">新增</a-tag> 台服公会排名查询
+- <a-tag color="blue">新增</a-tag> 60秒新闻
+- <a-tag color="blue">新增</a-tag> 人生重启
+- <a-tag color="blue">新增</a-tag> 原神日历
+- <a-tag color="green">更新</a-tag> 原神猜语音失效的问题
+
 ## 2021-9-10
 - <a-tag color="green">更新</a-tag> 原神个人信息
 - <a-tag color="cyan">运营</a-tag> 合并赞助渠道
