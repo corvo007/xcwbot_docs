@@ -11,6 +11,9 @@ sidebarDepth: 0
 猜立绘/剧情/语音|2021 Autumn
 大头菜金融系统扩展|2021 Autumn
 
+## 2021-9-12
+- <a-tag color="blue">新增</a-tag> 金币红包
+
 ## 2021-9-11
 - <a-tag color="blue">新增</a-tag> PCR大乱斗
 - <a-tag color="blue">新增</a-tag> 台服公会排名查询
