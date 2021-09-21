@@ -110,11 +110,13 @@
         </a-step>
         <a-step title="完成" status="process">
             <template slot="description">
-                如出现下图的提示，则说明已经添加成功，可以进行下一步了<br>
-                <img src="../.vuepress/public/images/hosting/add-binding-bot-4.png" />
-                <a-alert type="warning" message="遇到了问题？" show-icon>
+               当您扫码并确认了登录之后，接下来需要做的事就是等待登录结果。<br>
+               <b>如果登录成功，您添加的这个机器人会向您发送一条消息以证明添加成功。</b><br>
+               <b>如果180秒（3分钟）内没有收到消息的话，您可以自己向这个机器人私聊发送“小仓唯在？”，如果有回复那么也已经添加成功。</b>
+               <a-alert type="warning" message="遇到了问题？" show-icon>
                     <template slot="description">
-                        如果等待了超过10分钟都没有出现提示（无论失败还是成功），则可能是提示消息因故未能发出，请重新进行添加/重启流程。
+                        如果收到了添加失败的通知，或者3分钟之后私聊您的机器人“小仓唯在？”没有回复的话，请再试一次。<br>
+                        如果多次失败，建议等待几个小时之后再尝试。
                     </template>
                 </a-alert>
             </template>
@@ -150,8 +152,7 @@
                 <p></p>
                 <a-alert type="info" message="提示" show-icon>
                     <template slot="description">
-                        1.目前每个机器人最多能绑定5个群。<br>
-                        2.需要注意的是，目前机器人<b>仅</b>会自动同意<b>好友</b>，<b>不会</b>自动同意加群请求，这部分由您<b>全权负责</b>。
+                        需要注意的是，目前机器人<b>仅</b>会自动同意<b>好友</b>，<b>不会</b>自动同意加群请求，这部分由您<b>全权负责</b>。
                     </template>
                 </a-alert>
             </template>
