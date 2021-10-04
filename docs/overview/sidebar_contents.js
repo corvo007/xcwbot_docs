@@ -4,10 +4,6 @@ module.exports = [
 	path: '/overview/',
 },
 {
-	title: '赞助指南',
-	path: '/shop/guide'
-},
-{
 	title: '托管指南',
 	path: '/hosting/'
 },

@@ -12,10 +12,6 @@ module.exports = [
     link: '/hosting/introduction'
   },
   {
-    text: '赞助指南',
-    link: '/shop/guide'
-  },
-  {
     text: '通知&公告',
     link: '/announcement/changelog'
   },
