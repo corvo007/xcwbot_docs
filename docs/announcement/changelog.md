@@ -11,6 +11,10 @@ sidebarDepth: 0
 猜立绘/剧情/语音|2021 Autumn
 大头菜金融系统扩展|2021 Autumn
 
+## 2021-10-8
+- <a-tag color="green">更新</a-tag> 人生重来
+- <a-tag color="green">更新</a-tag> PCR大乱斗
+
 ## 2021-9-21
 <b>各位中秋节快乐！ </b>   
 值此中秋佳节之际，有几件事情想要告诉大家：  
