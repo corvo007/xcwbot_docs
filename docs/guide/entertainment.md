@@ -777,6 +777,11 @@ ys#  | 查询用户上一次查询的UID信息
                         <td style="text-align: left;">塔罗牌</td>
                         <td style="text-align: left;"><b>相关服务:命运塔罗</b></td>
                      </tr>
+                      <tr>
+                        <td style="text-align: left;">查成分</td>
+                        <td style="text-align: left;">查成分 b站uid</td>
+                        <td style="text-align: left;"><b>相关服务:查成分</b></td>
+                     </tr>
                   </tbody>
                </table>
             </a-collapse-panel>
