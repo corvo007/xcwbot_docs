@@ -11,6 +11,9 @@ sidebarDepth: 0
 猜立绘/剧情/语音|2021 Autumn
 大头菜金融系统扩展|2021 Autumn
 
+## 2021-10-23
+- <a-tag color="green">更新</a-tag> <a href="/guide/clanbattlev2">会战管理v2(适用于台日服会战新模式)</a>
+
 ## 2021-10-16
 - <a-tag color="green">更新</a-tag> 查成分
 

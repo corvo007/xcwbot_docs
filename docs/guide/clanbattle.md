@@ -1,8 +1,14 @@
 ---
 next: ./clanbattleoperating
 ---
-# 会战功能
+# 会战管理v1
 
+<a-alert type="info" message="提示" show-icon>
+<template slot="description">
+此处介绍的是适用于<b>国服</b>的会战管理系统，台日服会战管理系统请移步<b><a href="/guide/clanbattlev2.html">会战管理v2</a></b>查看。
+</template>
+</a-alert>
+<p></p>
 <a-alert type="warning" message="提示" show-icon>
 <template slot="description">
 目前<b>除会战版外</b>的所有版本<b>(包括会战实用版)</b>皆已全面转为托管模式，如果您需要一个开箱即用的会战机器人，请照<a
