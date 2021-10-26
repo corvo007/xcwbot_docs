@@ -6,7 +6,7 @@ sidebarDepth: 2
 <a-alert type="info" message="提示" show-icon>
 <template slot="description">
 此处介绍的是适用于<b>台日服</b>的会战管理系统，国服会战管理系统请移步<b><a href="/guide/clanbattle.html">会战管理v1</a></b>查看。<br>
-<b>此外，会战版(零号机)暂未实装会战管理v2。</b>
+<b>因技术原因，会战版(零号机)暂未实装会战管理v2，如需使用此功能请使用托管模式。</b>
 </template>
 </a-alert>
 
