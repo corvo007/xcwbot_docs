@@ -16,10 +16,6 @@ module.exports = [
     link: '/announcement/changelog'
   },
   {
-    text: '主页',
-    link: 'https://xcwbot.com'
-  },
-  {
     text: '关于',
     link: '/about/'
   }
