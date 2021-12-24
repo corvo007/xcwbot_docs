@@ -3,8 +3,12 @@ sidebarDepth: 0
 ---
 # 更新日志
 
+## 2021-12-24
+- <a-tag color="green">更新</a-tag> <a href="/guide/clanbattle">会战管理v2</a>，现在可以支持国服了
+- <a-tag color="red">移除</a-tag> 会战报告（因更换了新版的会战系统，新的会战报告将于之后更新） 
+
 ## 2021-10-23
-- <a-tag color="green">更新</a-tag> <a href="/guide/clanbattlev2">会战管理v2(适用于台日服会战新模式)</a>
+- <a-tag color="blue">新增</a-tag> <a href="/guide/clanbattle">会战管理v2</a>
 
 ## 2021-10-16
 - <a-tag color="green">更新</a-tag> 查成分

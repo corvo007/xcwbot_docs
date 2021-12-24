@@ -8,16 +8,12 @@ module.exports = [
 		path: '/guide/introduction',
 	},
 	{
-		title: '会战管理v1(国服)',
+		title: '会战管理',
 		path: '/guide/clanbattle',
 		children: [
-			['/guide/clanbattle', '功能介绍'],
-			['/guide/clanbattleoperating', '操作指导']
+			['/guide/clanbattlev1', '国服'],
+			['/guide/clanbattlev2', '台日服']
 		]
-	},
-	{
-		title: '会战管理v2(台日服)',
-		path: '/guide/clanbattlev2'
 	},
 	{
 		title: '实用功能',

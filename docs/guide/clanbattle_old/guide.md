@@ -1,7 +1,3 @@
----
-prev: ./clanbattle
-next: ./tools
----
 # 操作指导
 <a-alert type="info" message="提示" show-icon>
 <template slot="description">

@@ -21,7 +21,7 @@ next : false
 以下是目录: <p></p> 
 <b>使用指南目录</b>  
 - [前言](/guide/introduction.html)    
-- [会战功能](/guide/clanbattle.html)   
+- [会战功能](/guide/clanbattle)   
 - [实用功能](/guide/tools.html)  
 - [娱乐功能](/guide/entertainment.html)  
 - [常见问题](/guide/qa.html)   
