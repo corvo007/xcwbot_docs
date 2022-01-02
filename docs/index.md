@@ -20,7 +20,7 @@ footerWrap:
     link: https://xcwbot.com/
     details: 快速了解本Bot
   - title: 商店
-    link: https://shop.xcwbot.com/
+    link: https://weidian.com/?userid=1681584162
     details: 赞助，然后开始使用
   - title: 导览
     link: /overview/
