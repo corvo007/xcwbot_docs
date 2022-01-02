@@ -13,7 +13,7 @@
   </div>
 </template>
 
-    <slot name="bottom" /><div class="footinfo">Copyright © 2020-2021 xcwbot.com. All Rights Reserved.</div>
+    <slot name="bottom" /><div class="footinfo">Copyright © 2020-2022 xcwbot.com. All Rights Reserved.</div>
   </main>
 </template>
 
