@@ -17,4 +17,4 @@ jobs:
         TARGET_BRANCH: master
         BUILD_SCRIPT: yarn && yarn build
         BUILD_DIR: docs/.vuepress/dist/
-        CNAME: https://docs.pcrbotlink.top
+        CNAME: https://docs.xcwbot.com

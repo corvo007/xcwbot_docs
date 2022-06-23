@@ -70,7 +70,7 @@ next: false
             <a-tabs default-active-key="1" @change="callback">
               <a-tab-pane key="1" tab="我是第一次使用...">
                 或许您注意到了上一步最后的提示信息中有<b>“为你分配的Bot：...”</b>字样(如下图所示)。没有注意到也没有关系，这一行是告诉您应该<b>加这个QQ号为好友并邀请入群</b>。因为你私聊的机器人仅仅只是为了<b>激活</b>和<b>试用</b>存在的，你<b>不能</b>直接邀请它。待您向前面所说的机器人发送邀请并同意后，整个流程就结束了。<b>最后，祝您玩得开心！</b><br>
-                <img src="https://image.pcrbotlink.top/register_1_end.jpg " height='400'>
+                <img src="https://image.xcwbot.com/register_1_end.jpg " height='400'>
               </a-tab-pane>
               <a-tab-pane key="2" tab="我已经使用过一会了..." force-render>
                 <b>您已经完成了所有的步骤！祝您玩得开心！</b>
@@ -176,25 +176,25 @@ export default {
         {
           title: '选择类型和时长',
           content: '<b>打开页面后，首先选择赞助类型和赞助时长，此处以会战版+月卡为例</b><br/>',
-          image:'https://image.pcrbotlink.top/shopping-1.jpg',
+          image:'https://image.xcwbot.com/shopping-1.jpg',
           image_height:''
         },
         {
           title: '填写相关信息', 
           content: '<b>在此您需要填写联系邮箱，用来收取卡密；并直接在“查询密码”框内输入一个密码用于之后订单的查询。此外，如果您有优惠券，可以填入“优惠券”栏。</b><br/>',
-          image: 'https://image.pcrbotlink.top/shopping-2.jpg',
+          image: 'https://image.xcwbot.com/shopping-2.jpg',
           image_height:'400'
         },
         {
           title: '选择支付方式',
           content: '<b>确认填写的各项信息无误后，选择一种支付方式付款。</b><br/>',
-          image: 'https://image.pcrbotlink.top/shopping-3.jpg',
+          image: 'https://image.xcwbot.com/shopping-3.jpg',
           image_height:''
         },
         {
           title: '完成赞助并获得卡密',
           content: '<b>付款成功后，会自动跳转到提取卡密页面。若没有跳转，请</b><a href="https://shop3.xcwbot.com/#/record" target="_blank">查询订单</a><b>获取卡密。之后，请按照下个步骤所述将卡密激活。</b><br/>',
-          image: 'https://image.pcrbotlink.top/shopping-4.jpg',
+          image: 'https://image.xcwbot.com/shopping-4.jpg',
           image_height:'400'
         },
       ],
@@ -214,7 +214,7 @@ export default {
         {
           title: '发送指令',
           content: '<b>待机器人同意您的好友申请之后，向其私聊发送“充值”(如果机器人已经在您的群中，直接在群中at机器人发送充值根据提示发送卡密即可)，然后根据提示发送群号和卡密，成功后机器人会给予您如下图的提示。</b>',
-          image: 'https://image.pcrbotlink.top/register_1.jpg',
+          image: 'https://image.xcwbot.com/register_1.jpg',
           image_height: '400',
         }],
       steps_auto: [
@@ -229,14 +229,14 @@ export default {
           title: '生成转移码',
           description: '在转出群中at机器人并发送指令',
           content: '<b>由转出群的管理员或以上的at机器人并发送“转移授权”，然后根据提示发送转入群群号</b>',
-          image: 'https://image.pcrbotlink.top/transfer_1.png',
+          image: 'https://image.xcwbot.com/transfer_1.png',
           image_height: '',
         },
         {
           title: '使用转移码确认转移',
           description: '私聊机器人并发送指令',
           content: '<b>同样由转出群的管理员或以上的私聊机器人发送“转移授权”，然后完成确认转移流程</b>',
-          image: 'https://image.pcrbotlink.top/transfer_2.png',
+          image: 'https://image.xcwbot.com/transfer_2.png',
           image_height: '400',
         },
       ],

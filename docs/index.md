@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: https://image.pcrbotlink.top/xcwtitle.jpg
+heroImage: https://image.xcwbot.com/xcwtitle.jpg
 tagline: 多功能的公主连结Bot
 actionText: 快速上手 →
 actionLink: /overview/

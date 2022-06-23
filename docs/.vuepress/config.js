@@ -5,13 +5,13 @@ module.exports = {
   base: "/",
   head: [
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-    ['link', { rel: 'icon', href: 'https://image.pcrbotlink.top/favicon.ico' }]
+    ['link', { rel: 'icon', href: 'https://image.xcwbot.com/favicon.ico' }]
   ],
   markdown: {
     lineNumbers: false,
   },
   themeConfig: {
-    logo: 'https://image.pcrbotlink.top/favicon.ico',
+    logo: 'https://image.xcwbot.com/favicon.ico',
     smoothScroll: true,
     nav: require("./config/nav"),
     sidebar: require("./config/sidebar"),
