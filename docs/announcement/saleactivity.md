@@ -32,9 +32,11 @@ sidebarDepth: 2
 
 
 ### 活动二
-我们将会在以下三个时间点开始进行<b>秒杀</b>活动：
+我们将会在以下三个时间点开始进行<b>秒杀</b>活动：  
 
-<B>2022年6月26日 0:00~1:00</b>
+（若无法扫描小程序码，可点击图片放大）  
+
+<B>2022年6月26日 0:00~1:00</b>  
 参与本次的商品：  
 <img src="../.vuepress/public/images/sales/20.png" style="max-height: 600px" />
 
@@ -44,7 +46,7 @@ sidebarDepth: 2
 
 <B>2022年7月2日 20:00~21:00</b>
 参与本次的商品：  
-<img src="../.vuepress/public/images/sales/80.png" style="max-height: 600px" />
+<img src="../.vuepress/public/images/sales/80.png" style="max-height: 600px"/>
 
 ::: tip 注
 1. 秒杀商品数量有限，售完即止。
