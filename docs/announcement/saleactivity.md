@@ -38,15 +38,15 @@ sidebarDepth: 2
 
 <B>2022年6月26日 0:00~1:00</b>  
 参与本次的商品：  
-<img src="../.vuepress/public/images/sales/20.png" style="max-height: 600px" />
+<img src="../.vuepress/public/images/sales/20.png" style="max-height: 800px" />
 
 <B>2022年6月28日 20:00~21:00</b>
 参与本次的商品：  
-<img src="../.vuepress/public/images/sales/40.png" style="max-height: 600px" />
+<img src="../.vuepress/public/images/sales/40.png" style="max-height: 800px" />
 
 <B>2022年7月2日 20:00~21:00</b>
 参与本次的商品：  
-<img src="../.vuepress/public/images/sales/80.png" style="max-height: 600px"/>
+<img src="../.vuepress/public/images/sales/80.png" style="max-height: 800px"/>
 
 ::: tip 注
 1. 秒杀商品数量有限，售完即止。
