@@ -88,29 +88,14 @@
         </a-step>
         <a-step title="登录" status="process">
             <template slot="description">
-                按提示使用手机QQ扫码<b>
-                    <font color="red">(不能从相册中扫码，需要使用另外一台设备对着屏幕扫码，如有困难，可寻求维护组帮助)</font>
-                </b>，并确认登录，之后耐心等待几分钟确认绑定结果<br>
-                <img src="../.vuepress/public/images/hosting/add-binding-bot-3.png" />
-                <a-alert type="warning" message="遇到了问题？" show-icon>
-                    <template slot="description">
-                        <ul>1.由于部分账号登录比较慢或者登录时出现一些可以忽略的错误，导致无法检测到在线的状态。因此，可以用以下的方法来检查您的机器人是否就绪：<br>
-                            <b>私聊向机器人发送“小仓唯在？”，获得回复即证明已经就绪。</b>
-                        </ul>
-                        <ul>2.如出现<b>二维码获取失败</b>（如下图），可以多试几次，如果反复失败，
-                            可以等几个小时之后使用<b>“重启机器人”</b>命令尝试重新登录。如果每次都失败，可能是被拉入了黑名单，
-                            此时可以先使用<b>“删除机器人”</b>删除旧的账号，然后更换个账号再尝试。<br>
-                            <img src="../.vuepress/public/images/hosting/add-binding-bot-error-1.png" />
-                        </ul>
-                        <ul>3.如遇<b>二维码过期</b>，请等待五分钟后重启机器人重试。</ul>
-                        <ul>4.如遇<b>“二维码无法识别”</b>，请使用另外一台设备对着屏幕扫码。</ul>
-                    </template>
-                </a-alert>
+                会尝试自动进行登录。<br>
+                <b>如果您见到以下提示，请联系维护组，并提供账号和密码，等待维护组为您手动处理登录：</b><p></p>
+                <b><i>需要人工处理凳撸,请联系维护组并提供帐蚝、秘玛</i></b>
             </template>
         </a-step>
         <a-step title="完成" status="process">
             <template slot="description">
-               当您扫码并确认了登录之后，接下来需要做的事就是等待登录结果。<br>
+               当登录之后，接下来需要做的事就是等待登录结果。<br>
                <b>如果登录成功，您添加的这个机器人会向您发送一条消息以证明添加成功。</b><br>
                <b>如果180秒（3分钟）内没有收到消息的话，您可以自己向这个机器人私聊发送“小仓唯在？”，如果有回复那么也已经添加成功。</b>
                <a-alert type="warning" message="遇到了问题？" show-icon>
@@ -125,7 +110,7 @@
 </template>
 
 <b>强烈推荐您按照<a
-        href="#%E6%9B%B4%E6%94%B9%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%9A%84%E8%AE%BE%E7%BD%AE-%E5%AF%86%E7%A0%81%E7%AD%89">“修改机器人设置”</a>中所述补充自己的密码，以便重启后能够自动登录，否则有可能每次都要求您扫码登录。</b>
+        href="#%E6%9B%B4%E6%94%B9%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%9A%84%E8%AE%BE%E7%BD%AE-%E5%AF%86%E7%A0%81%E7%AD%89">“修改机器人设置”</a>中所述补充（或修改）自己的密码，以便重启后能够自动登录，否则有可能每次都要求您扫码登录。</b>
 
 <a-alert type="info" message="提示" description="目前每个人最多能绑定2个机器人。" show-icon />
 
