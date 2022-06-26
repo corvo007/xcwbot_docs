@@ -61,8 +61,7 @@
 <p></p>
 <b>
     <font color="red">在发送指令之前，请先加机器人为好友。</font>
-</b><br>
-首先需要将您的QQ号提交到平台上托管：
+</b><p></p>
 <template>
     <a-steps direction="vertical" :current="4">
         <a-step title="获取云点" status="process">
