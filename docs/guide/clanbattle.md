@@ -1,13 +1,5 @@
 # 会战管理(v2)
 
-<a-alert type="info" message="提示" show-icon>
-<template slot="description">
-<b>因技术原因，会战版(零号机)暂未实装会战管理(v2)，如需使用此功能请使用托管模式。</b><br>
-旧版会战管理系统(yobot)指令参考：<a href="/guide/clanbattle_old/">会战管理v1(yobot)指令参考</a>
-</template>
-</a-alert>
-<P></p>
-
 <b>欢迎使用全新的会战管理系统！</b>
 
 

@@ -32,7 +32,7 @@ next: false
       <div v-show="item.id===0">
         <a-tabs default-active-key="1" :size="size" @change="callback">
           <a-tab-pane key="1" tab="会战版">
-            会战版只有yobot的相关功能，包括带网页的会战管理系统和一系列的伤害统计图表等，能满足基本的会战需求，<b>适合只用于会战的人。</B></br>赞助<b>5.99元/月</b>即可使用这个机器人。
+            会战版只有会战的相关功能，包括带网页的会战管理系统和一系列的伤害统计图表等，能满足基本的会战需求，<b>适合只用于会战的人。</B></br>赞助<b>5.99元/月</b>即可使用这个机器人。
           </a-tab-pane>
           <a-tab-pane key="2" tab="会战实用版、娱乐版、终极版">
             请转到<b><a href="/hosting/">托管指南</a></b>。
