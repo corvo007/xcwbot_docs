@@ -71,6 +71,14 @@
 ### 购买卡密
 首先赞助获得卡密：
 
+<br>
+<a-alert type="info" message="提示" show-icon>
+        <template slot="description">
+            在下单之前可以先去<a href="/announcement/saleactivity.html">促销活动页面</a>看看有没有什么新活动哦~
+        </template>
+</a-alert>
+<br>
+
 如您使用<b>支付宝</b>，请使用支付宝扫描下方二维码进入微店赞助（收货地址可随意填写，无需真实地址）：
 
 <img src="../.vuepress/public/images/hosting/shop_web.png"></img>
