@@ -6,8 +6,7 @@ next: ./qa
 
 <a-alert type="warning" message="提示" show-icon>
 <template slot="description">
-如果您需要一个开箱即用的会战机器人，请照<a
-            href="/shop/guide.html">“赞助指南”</a>赞助并使用。这个机器人只有<b>最基本</b>的功能，若需使用完整功能，请<a href="/hosting/introduction.html">托管机器人</a>。
+会战机器人只有<b>最基本</b>的功能，若需使用完整功能，请<a href="/hosting/introduction.html">托管机器人</a>。
 </template>
 </a-alert>
 
