@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
-    "publish_prod": "vuepress build docs && coscli cp -r ./docs/.vuepress/dist cos://doc-1251992512/ -r -e cos.ap-guangzhou.myqcloud.com && tccli cdn PurgePathCache --cli-unfold-argument --Paths https://doc.xcwbot.com --FlushType delete && tccli cdn PurgePathCache --cli-unfold-argument --Paths https://xcwbot.com --FlushType delete && tccli cdn PurgePathCache --cli-unfold-argument --Paths https://www.xcwbot.com --FlushType delete "
+    "publish_prod": "clean_dist.ps1 && vuepress build docs && coscli rm cos://doc-1251992512/ -r -f -e cos.ap-guangzhou.myqcloud.com && coscli cp -r ./docs/.vuepress/dist cos://doc-1251992512/ -r -e cos.ap-guangzhou.myqcloud.com && tccli cdn PurgePathCache --cli-unfold-argument --Paths https://doc.xcwbot.com --FlushType delete && tccli cdn PurgePathCache --cli-unfold-argument --Paths https://xcwbot.com --FlushType delete && tccli cdn PurgePathCache --cli-unfold-argument --Paths https://www.xcwbot.com --FlushType delete "
   },
   "keywords": [],
   "author": "corvo007",
