@@ -11,7 +11,7 @@ features:
   details: 费用完全由您机器人服务的群聊数量决定，按需添删，毫不浪费。
 - title: 高度定制
   details: 机器人的昵称、头像、签名等个人信息和加入的群聊皆可由您一手把控，让其真正变成只服务于您的私人Bot。
-footer: Copyright © 2020-2022 小仓唯Bot</br>未经许可，严禁挪用本站点的设计、图片或文字</br><a href="https://beian.miit.gov.cn/">蜀ICP备20022750号-2</a>
+footer: Copyright © 2020-2023 小仓唯Bot</br>未经许可，严禁挪用本站点的设计、图片或文字</br><a href="https://beian.miit.gov.cn/">蜀ICP备20022750号-2</a>
 footerColumn: 2
 footerWrap: 
 - headline: 快速访问
