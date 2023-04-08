@@ -10,10 +10,6 @@ module.exports = [
 	{
 		title: '会战管理',
 		path: '/guide/clanbattle',
-		children: [
-			['/guide/clanbattlev1', '国服'],
-			['/guide/clanbattlev2', '台日服']
-		]
 	},
 	{
 		title: '实用功能',
