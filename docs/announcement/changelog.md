@@ -3,6 +3,9 @@ sidebarDepth: 0
 ---
 # 更新日志
 
+## 2023-4-8
+- <a-tag color="green">更新</a-tag>更新国服会战模式为自由挑战模式，与台日服同步
+
 ## 2022-7-25
 - <a-tag color="green">更新</a-tag>因yobot结束支持，为会战版(零号机)更新会战管理v2
 

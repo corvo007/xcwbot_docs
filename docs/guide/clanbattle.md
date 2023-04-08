@@ -34,9 +34,7 @@
 
 ## 使用指南
 
---> [国服](/guide/clanbattlev1.md)   
-
---> [台日服](/guide/clanbattlev2.md)  
+--> [点击查看](/guide/clanbattlev2.md)  
 
 
 <b>祝会战顺利！</b>
